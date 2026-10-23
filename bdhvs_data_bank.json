@@ -1,0 +1,6314 @@
+{
+  "version": "2.0.0",
+  "updatedAt": "2026-10-22",
+  "courses": [
+    {
+      "id": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "name": "1. Nâng cao nhận thức an toàn trên không gian số - Cần Thơ",
+      "url": "https://binhdanhocvuso.gov.vn/courses/course-v1:BKHN+ATTT-CanTho+2026-1/course/",
+      "aboutUrl": "https://binhdanhocvuso.gov.vn/courses/course-v1:BKHN+ATTT-CanTho+2026-1/about"
+    },
+    {
+      "id": "course-v1:BKHN+AI01+2025-1",
+      "name": "2. Làm chủ AI với Prompt Engineering",
+      "url": "https://binhdanhocvuso.gov.vn/courses/course-v1:BKHN+AI01+2025-1/course/",
+      "aboutUrl": "https://binhdanhocvuso.gov.vn/courses/course-v1:BKHN+AI01+2025-1/about"
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "ai01_clip_01",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Giới thiệu về GenAI",
+      "keywords": [
+        "giới thiệu về genai",
+        "0490641508374caaadbd07a0443b5eac"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c1_q1",
+          "time": "03:55",
+          "question": "Lợi ích chính của AI tạo sinh về mặt hiệu quả là gì?",
+          "options": [
+            "Nó thay thế nhu cầu về sự tham gia của con người trong các quá trình sáng tạo.",
+            "Nó tự động hóa các công việc tốn thời gian, giúp con người có thêm thời gian để làm việc sáng tạo hơn.",
+            "Nó đảm bảo đầu ra hoàn toàn chính xác và không thiên vị.",
+            "Nó loại bỏ sự cần thiết của sáng tạo con người."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Nó tự động hóa các công việc tốn thời gian, giúp con người có thêm thời gian để làm việc sáng tạo hơn."
+          ],
+          "rawSeconds": 235,
+          "seekSeconds": 230,
+          "seekTime": "03:50"
+        },
+        {
+          "id": "ai01_c1_q2",
+          "time": "04:00",
+          "altTime": "03:29",
+          "question": "Ví dụ nào sau đây là việc sử dụng AI tạo sinh để cá nhân hóa?",
+          "options": [
+            "Dịch văn bản từ ngôn ngữ này sang ngôn ngữ khác.",
+            "Tạo chiến dịch tiếp thị phù hợp với sở thích cá nhân của từng người.",
+            "Phân tích các tập dữ liệu lớn để xác định xu hướng.",
+            "Tạo một báo cáo thời tiết cho một địa điểm cụ thể."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Tạo chiến dịch tiếp thị phù hợp với sở thích cá nhân của từng người."
+          ],
+          "rawSeconds": 240,
+          "seekSeconds": 235,
+          "seekTime": "03:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_02",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Giới thiệu về các mô hình ngôn ngữ lớn",
+      "keywords": [
+        "giới thiệu về các mô hình ngôn ngữ lớn",
+        "giới thiệu các mô hình ngôn ngữ lớn",
+        "c7c61776806449408189d43ebfe9eb2f"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c2_q1",
+          "time": "01:52",
+          "question": "Ứng dụng nào sau đây chuyển văn bản thành hình ảnh?",
+          "options": [
+            "Loudly",
+            "Image Creator trong Microsoft Designer",
+            "MathGPT",
+            "TurboScribe"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Image Creator trong Microsoft Designer"
+          ],
+          "rawSeconds": 112,
+          "seekSeconds": 107,
+          "seekTime": "01:47"
+        },
+        {
+          "id": "ai01_c2_q2",
+          "time": "03:54",
+          "question": "Mô hình nào được sử dụng để tự động ghi chép cuộc họp bằng cách chuyển giọng nói thành văn bản?",
+          "options": [
+            "Soundraw.io",
+            "DALL-E",
+            "Make a Video",
+            "TurboScribe"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "TurboScribe"
+          ],
+          "rawSeconds": 234,
+          "seekSeconds": 229,
+          "seekTime": "03:49"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_03",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Prompt cơ bản: Tóm tắt nội dung, tạo bảng, viết email, blogs…",
+      "keywords": [
+        "prompt cơ bản: tóm tắt nội dung",
+        "339314c62f1740309c060767525ab66d"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c3_q1",
+          "time": "01:26",
+          "question": "Khi tạo Prompt để tóm tắt nội dung văn bản, điều nào sau đây là quan trọng nhất?",
+          "options": [
+            "Chỉ viết một câu hỏi mở, không thêm thông tin cụ thể.",
+            "Đảm bảo Prompt chỉ định độ dài và phong cách tóm tắt mong muốn.",
+            "Bao gồm tất cả các chi tiết nhỏ từ văn bản gốc.",
+            "Sử dụng ngôn ngữ phức tạp để diễn đạt câu hỏi."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Đảm bảo Prompt chỉ định độ dài và phong cách tóm tắt mong muốn."
+          ],
+          "rawSeconds": 86,
+          "seekSeconds": 81,
+          "seekTime": "01:21"
+        },
+        {
+          "id": "ai01_c3_q2",
+          "time": "03:08",
+          "question": "Trong một Prompt yêu cầu viết email, yếu tố nào cần được làm rõ để có kết quả phù hợp?",
+          "options": [
+            "Số từ tối thiểu mà email phải đạt được.",
+            "Chi tiết toàn bộ lịch sử giao tiếp trước đó.",
+            "Ngôn ngữ lập trình được sử dụng.",
+            "Đối tượng nhận email và mục đích của email."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Đối tượng nhận email và mục đích của email."
+          ],
+          "rawSeconds": 188,
+          "seekSeconds": 183,
+          "seekTime": "03:03"
+        },
+        {
+          "id": "ai01_c3_q3",
+          "time": "05:13",
+          "question": "Đâu là ví dụ đúng về Prompt yêu cầu tóm tắt một bài báo?",
+          "options": [
+            "\"Viết lại bài báo nhưng sử dụng ngôn ngữ đơn giản hơn.\"",
+            "\"Viết một bản tóm tắt ngắn gọn (khoảng 100 từ) của bài báo, tập trung vào các ý chính và bỏ qua các chi tiết không quan trọng.\"",
+            "\"Tóm tắt tất cả các câu trong bài báo.\"",
+            "\"Tóm tắt bài báo này.\""
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "\"Viết một bản tóm tắt ngắn gọn (khoảng 100 từ) của bài báo, tập trung vào các ý chính và bỏ qua các chi tiết không quan trọng.\""
+          ],
+          "rawSeconds": 313,
+          "seekSeconds": 308,
+          "seekTime": "05:08"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_04",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Các kỹ thuật prompt: zero-shot, few-shot, prompt chaining, chain of thoughts, mã lập trình trong prompt, React, Reflextion, self-consistency…",
+      "keywords": [
+        "các kỹ thuật prompt: zero-shot",
+        "9274c6772a01440d9b83c441bf79b574"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c4_q1",
+          "time": "05:20",
+          "question": "Khi nào bạn nên sử dụng one-shot prompting?",
+          "options": [
+            "Khi cần tạo chuỗi suy luận rõ ràng.",
+            "Khi chỉ cần một ví dụ để hướng dẫn AI hiểu cách trả lời.",
+            "Khi bạn muốn AI tự suy luận mà không cần gợi ý.",
+            "Khi bạn có nhiều ví dụ nhưng muốn giảm thời gian xử lý."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Khi chỉ cần một ví dụ để hướng dẫn AI hiểu cách trả lời."
+          ],
+          "rawSeconds": 320,
+          "seekSeconds": 315,
+          "seekTime": "05:15"
+        },
+        {
+          "id": "ai01_c4_q3",
+          "time": "09:14",
+          "question": "Trong few-shot prompting, điều quan trọng nhất khi chọn các ví dụ là gì?",
+          "options": [
+            "Không cần chọn ví dụ, chỉ cần đưa Prompt.",
+            "Chọn các ví dụ càng phức tạp càng tốt.",
+            "Chọn các ví dụ đại diện cho bài toán cần giải quyết.",
+            "Chọn ví dụ có cấu trúc ngẫu nhiên"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Chọn các ví dụ đại diện cho bài toán cần giải quyết."
+          ],
+          "rawSeconds": 554,
+          "seekSeconds": 549,
+          "seekTime": "09:09"
+        },
+        {
+          "id": "ai01_c4_q2",
+          "time": "13:07",
+          "question": "Đặc điểm nào dưới đây là điểm nổi bật của kỹ thuật Chain of Thought?",
+          "options": [
+            "Cung cấp nhiều ví dụ cụ thể trong một Prompt.",
+            "Cung cấp các bước suy luận rõ ràng trong Prompt để giúp AI giải quyết bài toán.",
+            "Chỉ đưa ra một ví dụ duy nhất",
+            "Không cung cấp ví dụ nào"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Cung cấp các bước suy luận rõ ràng trong Prompt để giúp AI giải quyết bài toán."
+          ],
+          "rawSeconds": 787,
+          "seekSeconds": 782,
+          "seekTime": "13:02"
+        },
+        {
+          "id": "ai01_c4_q4",
+          "time": "14:45",
+          "question": "Chain of Thought có thể được kết hợp với few-shot prompting trong trường hợp nào?",
+          "options": [
+            "Khi yêu cầu AI tạo câu trả lời ngẫu nhiên.",
+            "Khi cần giải thích bài toán bằng nhiều bước suy luận cùng ví dụ cụ thể.",
+            "Khi chỉ cần một ví dụ duy nhất.",
+            "Khi muốn giảm thời gian xử lý."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Khi cần giải thích bài toán bằng nhiều bước suy luận cùng ví dụ cụ thể."
+          ],
+          "rawSeconds": 885,
+          "seekSeconds": 880,
+          "seekTime": "14:40"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_05",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Hỗ trợ học tập giảng dạy: tạo slides, trắc nghiệm…",
+      "keywords": [
+        "hỗ trợ học tập giảng dạy",
+        "ứng dụng genai trong sử lý, phân tích văn bản",
+        "90576d77cce74cc69705a43bad37e702"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c5_q1",
+          "time": "14:06",
+          "question": "NotebookLM là gì?",
+          "options": [
+            "Một phần mềm xử lý văn bản do Google phát triển.",
+            "Một công cụ AI của Google giúp tương tác với tài liệu hiệu quả.",
+            "Một ứng dụng ghi chú kỹ thuật số thay thế cho sổ tay truyền thống.",
+            "Một loại LLM chuyên dụng cho ghi chú."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Một công cụ AI của Google giúp tương tác với tài liệu hiệu quả."
+          ],
+          "rawSeconds": 846,
+          "seekSeconds": 841,
+          "seekTime": "14:01"
+        },
+        {
+          "id": "ai01_c5_q2",
+          "time": "14:50",
+          "question": "NotebookLM hỗ trợ những loại tài liệu nào?",
+          "options": [
+            "Hỗ trợ mọi định dạng tệp tin.",
+            "Hỗ trợ PDF, Google Drive, văn bản sao chép, trang web.",
+            "Chỉ hỗ trợ tài liệu văn bản thuần túy.",
+            "Chỉ hỗ trợ tệp PDF."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Hỗ trợ PDF, Google Drive, văn bản sao chép, trang web."
+          ],
+          "rawSeconds": 890,
+          "seekSeconds": 885,
+          "seekTime": "14:45"
+        },
+        {
+          "id": "ai01_c5_q3",
+          "time": "15:14",
+          "question": "Ưu điểm của NotebookLM là gì?",
+          "options": [
+            "Tích hợp với nhiều ứng dụng khác.",
+            "Giao diện đẹp, dễ sử dụng.",
+            "Độ chính xác cao và trích dẫn nguồn rõ ràng, dễ kiểm chứng."
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Độ chính xác cao và trích dẫn nguồn rõ ràng, dễ kiểm chứng."
+          ],
+          "rawSeconds": 914,
+          "seekSeconds": 909,
+          "seekTime": "15:09"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_06",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Prompt đa thể thức",
+      "keywords": [
+        "prompt đa thể thức",
+        "af9628a66c3b4c22afc1f55554a2c927"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c6_q1",
+          "time": "00:30",
+          "question": "Prompt đa thể thức (multimodal prompts) là gì?",
+          "options": [
+            "Prompt sử dụng âm thanh và video.",
+            "Prompt chỉ sử dụng văn bản.",
+            "Prompt chỉ sử dụng hình ảnh.",
+            "Prompt kết hợp nhiều loại định dạng đầu vào như văn bản và hình ảnh."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Prompt kết hợp nhiều loại định dạng đầu vào như văn bản và hình ảnh."
+          ],
+          "rawSeconds": 30,
+          "seekSeconds": 25,
+          "seekTime": "00:25"
+        },
+        {
+          "id": "ai01_c6_q2",
+          "time": "01:02",
+          "question": "Mô hình ngôn ngữ lớn (LLMs) như Gemini có khả năng gì khi xử lý prompt đa phương tiện?",
+          "options": [
+            "Xử lý cả văn bản và hình ảnh, trả về phản hồi văn bản",
+            "Chỉ xử lý hình ảnh và trả về phản hồi văn bản.",
+            "Chỉ nhận diện văn bản và trả về phản hồi văn bản."
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Xử lý cả văn bản và hình ảnh, trả về phản hồi văn bản"
+          ],
+          "rawSeconds": 62,
+          "seekSeconds": 57,
+          "seekTime": "00:57"
+        },
+        {
+          "id": "ai01_c6_q3",
+          "time": "15:36",
+          "question": "Lợi ích chính của việc tinh chỉnh (fine-tuning) mô hình AI là gì?",
+          "options": [
+            "Loại bỏ hoàn toàn lỗi trong mô hình.",
+            "Tăng tốc độ xử lý của mô hình.",
+            "Tối ưu hóa hiệu suất cho tác vụ cụ thể.",
+            "Giảm chi phí phát triển mô hình."
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Tối ưu hóa hiệu suất cho tác vụ cụ thể."
+          ],
+          "rawSeconds": 936,
+          "seekSeconds": 931,
+          "seekTime": "15:31"
+        },
+        {
+          "id": "ai01_c6_q4",
+          "time": "15:36",
+          "question": "Learning rate là gì?",
+          "options": [
+            "Khả năng khái quát hóa của mô hình.",
+            "Tốc độ mô hình cập nhật trọng số sau mỗi batch",
+            "Độ phức tạp của mô hình.",
+            "Tỷ lệ dữ liệu được sử dụng để huấn luyện mô hình."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Tốc độ mô hình cập nhật trọng số sau mỗi batch"
+          ],
+          "rawSeconds": 936,
+          "seekSeconds": 931,
+          "seekTime": "15:31"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_08",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Ứng dụng chat nội bộ với Ollama và OpenWebUI",
+      "keywords": [
+        "ứng dụng chat nội bộ với ollama",
+        "082a79be2e6f4848936331eade16e5fb"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c8_q1",
+          "time": "02:23",
+          "question": "Hai lý do chính để chạy LLM cục bộ với Ollama là gì?",
+          "options": [
+            "Khả năng truy cập và tính di động",
+            "Chi phí và bảo mật.",
+            "Độ chính xác và khả năng mở rộng.",
+            "Tốc độ và hiệu suất."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Chi phí và bảo mật."
+          ],
+          "rawSeconds": 143,
+          "seekSeconds": 138,
+          "seekTime": "02:18"
+        },
+        {
+          "id": "ai01_c8_q2",
+          "time": "11:04",
+          "question": "Open Web UI mang lại lợi ích gì khi sử dụng với Ollama?",
+          "options": [
+            "Cung cấp các tính năng phân tích nâng cao.",
+            "Tăng tốc độ xử lý của mô hình.",
+            "Giảm dung lượng bộ nhớ cần thiết",
+            "Giao diện thân thiện để quản lý mô hình."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Giao diện thân thiện để quản lý mô hình."
+          ],
+          "rawSeconds": 664,
+          "seekSeconds": 659,
+          "seekTime": "10:59"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_09",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Giới thiệu về Langchain, Google AI Studio và NotebookLM",
+      "keywords": [
+        "giới thiệu về langchain",
+        "c05704be8de647ef8a797a67147272ea"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c9_q1",
+          "time": "04:13",
+          "question": "Để sử dụng API của OpenAI, bạn cần sử dụng gì để xác thực?",
+          "options": [
+            "Không cần xác thực",
+            "Mật khẩu tài khoản",
+            "Mã xác minh qua email",
+            "API keys"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "API keys"
+          ],
+          "rawSeconds": 253,
+          "seekSeconds": 248,
+          "seekTime": "04:08"
+        },
+        {
+          "id": "ai01_c9_q2",
+          "time": "08:53",
+          "question": "LangChain là gì?",
+          "options": [
+            "Một ngôn ngữ lập trình dành cho AI.",
+            "Một framework để phát triển ứng dụng trên mô hình ngôn ngữ.",
+            "Một công cụ để tinh chỉnh mô hình AI",
+            "Một loại mô hình ngôn ngữ."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Một framework để phát triển ứng dụng trên mô hình ngôn ngữ."
+          ],
+          "rawSeconds": 533,
+          "seekSeconds": 528,
+          "seekTime": "08:48"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_10",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Sử dụng mô hình sinh ảnh DALLE-3, Midjourney,",
+      "keywords": [
+        "sử dụng mô hình sinh ảnh dalle-3",
+        "de7dc79d4fe040e7a1687cc3c687452d"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c10_q1",
+          "time": "28:48",
+          "question": "Prompt nào dưới đây là tối ưu nhất để tạo hình ảnh và đảm bảo kết quả phù hợp với kỳ vọng?",
+          "options": [
+            "Khắc hoạ một cô gái xinh xắn đáng yêu.",
+            "Bạn là một nhà thiết kế nội thất, tạo một căn phòng hiện đại với tông màu trắng và gỗ sồi.",
+            "Một bữa ăn tại một quán cà phê sang xịn mịn.",
+            "Thiết kế một căn nhà đẹp, phong cách."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Bạn là một nhà thiết kế nội thất, tạo một căn phòng hiện đại với tông màu trắng và gỗ sồi."
+          ],
+          "rawSeconds": 1728,
+          "seekSeconds": 1723,
+          "seekTime": "28:43"
+        },
+        {
+          "id": "ai01_c10_q2",
+          "time": "43:39",
+          "question": "Đâu là cách để viết Prompt hiệu quả để đạt được hình ảnh mong muốn?",
+          "options": [
+            "Miêu tả chi tiết: bối cảnh, màu sắc, nghệ thuật.",
+            "Sử dụng ngữ cảnh: ví dụ đặt vài trò “bạn là Da Vincy/bạn là nhà thiết kế nội thất”.",
+            "Khắc phục lỗi: tinh chỉnh prompt để tránh đầu ra không phù hợp.",
+            "Cả 3 phương án trên."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Cả 3 phương án trên."
+          ],
+          "rawSeconds": 2619,
+          "seekSeconds": 2614,
+          "seekTime": "43:34"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_11",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Cơ bản về stable diffusion và sử dụng Giao diện người dùng cho stable diffusion (ví dụ ComfyUI/Automatic1111)",
+      "keywords": [
+        "cơ bản về stable diffusion",
+        "f8a89377300942f5993210d58bbcf736"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c11_q3",
+          "time": "10:50",
+          "question": "Điểm nổi bật nào sau đây thường được xem là ưu điểm của AUTOMATIC1111?",
+          "options": [
+            "Yêu cầu kiến thức chuyên sâu về kết nối các node",
+            "Dễ sử dụng, giao diện đơn giản và tích hợp nhiều tính năng sẵn có",
+            "Cho phép lưu workflow dưới dạng file để chia sẻ và tái sử dụng",
+            "Hỗ trợ giao diện trực quan với cấu hình node linh hoạt"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Dễ sử dụng, giao diện đơn giản và tích hợp nhiều tính năng sẵn có"
+          ],
+          "rawSeconds": 650,
+          "seekSeconds": 645,
+          "seekTime": "10:45"
+        },
+        {
+          "id": "ai01_c11_q4",
+          "time": "14:33",
+          "question": "Điểm nào sau đây là ưu điểm của ComfyUI so với AUTOMATIC1111?",
+          "options": [
+            "Workflow không cần cấu hình node riêng biệt cho các tác vụ khác nhau",
+            "Dễ dàng quan sát và chia sẻ workflow dưới dạng file để tái sử dụng hoặc cộng tác",
+            "Không yêu cầu hiểu chi tiết cách kết nối các node và cấu trúc bên trong",
+            "Giao diện đơn giản và nhất quán"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Dễ dàng quan sát và chia sẻ workflow dưới dạng file để tái sử dụng hoặc cộng tác"
+          ],
+          "rawSeconds": 873,
+          "seekSeconds": 868,
+          "seekTime": "14:28"
+        },
+        {
+          "id": "ai01_c11_q1",
+          "time": "14:36",
+          "question": "Stable diffusion là gì?",
+          "options": [
+            "Một giao thức truyền dữ liệu",
+            "Một mô hình tạo hình ảnh từ văn bản",
+            "Một phần mềm chỉnh sửa video",
+            "Một thuật toán nén dữ liệu"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Một mô hình tạo hình ảnh từ văn bản"
+          ],
+          "rawSeconds": 876,
+          "seekSeconds": 871,
+          "seekTime": "14:31"
+        },
+        {
+          "id": "ai01_c11_q2",
+          "time": "17:05",
+          "question": "Điểm khác biệt chính giữa chế độ image2image và depth2image trong Stable Diffusion là gì?",
+          "options": [
+            "Cả hai chế độ đều giống nhau, không có sự khác biệt.",
+            "image2image tạo hình ảnh từ văn bản mô tả, trong khi depth2image tạo hình ảnh từ một hình ảnh khác.",
+            "image2image chỉ hoạt động với hình ảnh màu, trong khi depth2image chỉ hoạt động với hình ảnh đen trắng.",
+            "image2image chỉnh sửa hình ảnh dựa trên văn bản mô tả, trong khi depth2image sử dụng thông tin độ sâu (depth) của hình ảnh để tái tạo hoặc thay đổi nó."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "image2image chỉnh sửa hình ảnh dựa trên văn bản mô tả, trong khi depth2image sử dụng thông tin độ sâu (depth) của hình ảnh để tái tạo hoặc thay đổi nó."
+          ],
+          "rawSeconds": 1025,
+          "seekSeconds": 1020,
+          "seekTime": "17:00"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_12",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Một số nền tảng sinh ảnh (ShakkerAI, NicheTensor…)",
+      "keywords": [
+        "một số nền tảng sinh ảnh",
+        "shakkerai",
+        "056a8f8c1e9a4177a68bbc4956416a67"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c12_q1",
+          "time": "02:55",
+          "question": "Khi sử dụng Shakker AI để train LoRA, điều kiện nào sau đây là cần thiết?",
+          "options": [
+            "Chỉ có thể huấn luyện LoRA với hình ảnh đen trắng.",
+            "Phải sử dụng GPU có bộ nhớ ít nhất 4GB.",
+            "Dataset phải được chia sẻ công khai trước khi huấn luyện.",
+            "Cần có một bộ dataset hình ảnh chất lượng cao và được gắn nhãn cẩn thận."
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Cần có một bộ dataset hình ảnh chất lượng cao và được gắn nhãn cẩn thận."
+          ],
+          "rawSeconds": 175,
+          "seekSeconds": 170,
+          "seekTime": "02:50"
+        },
+        {
+          "id": "ai01_c12_q2",
+          "time": "03:55",
+          "question": "Kling.ai hỗ trợ những chức năng chính nào?",
+          "options": [
+            "Thiết kế đồ họa 3D và mô phỏng",
+            "Chỉnh sửa video và xử lý âm thanh",
+            "Quản lý dữ liệu lớn và tối ưu hóa phần cứng",
+            "Tạo hình ảnh từ văn bản và xây dựng chatbot"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tạo hình ảnh từ văn bản và xây dựng chatbot"
+          ],
+          "rawSeconds": 235,
+          "seekSeconds": 230,
+          "seekTime": "03:50"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_13",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Giới thiệu nhanh mô hình text-to-video SORA by OpenAI",
+      "keywords": [
+        "giới thiệu nhanh mô hình text-to-video sora",
+        "a703288eebbf44e89805edd8fe041096"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c13_q1",
+          "time": "01:20",
+          "question": "SORA là mô hình AI được thiết kế để thực hiện tác vụ nào?",
+          "options": [
+            "Phân tích nội dung video tự động",
+            "Chỉnh sửa video có sẵn bằng AI",
+            "Tạo hình ảnh từ văn bản (text-to-image)",
+            "Tạo video từ mô tả văn bản (text-to-video)"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tạo video từ mô tả văn bản (text-to-video)"
+          ],
+          "rawSeconds": 80,
+          "seekSeconds": 75,
+          "seekTime": "01:15"
+        },
+        {
+          "id": "ai01_c13_q2",
+          "time": "02:10",
+          "question": "Một trong những đặc điểm nổi bật của mô hình SORA trong text-to-video là gì?",
+          "options": [
+            "Không thể tạo video với độ dài quá 30 giây",
+            "Hiểu được các mô tả phức tạp và tạo video với nhiều góc quay, chuyển động khác nhau",
+            "Chỉ tạo ra video trong một phong cách cố định",
+            "Tạo video dài tối đa 5 phút với độ phân giải thấp"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Hiểu được các mô tả phức tạp và tạo video với nhiều góc quay, chuyển động khác nhau"
+          ],
+          "rawSeconds": 130,
+          "seekSeconds": 125,
+          "seekTime": "02:05"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_14",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Giới thiệu nhanh image-to-video: stable-video-diffusion",
+      "keywords": [
+        "giới thiệu nhanh image-to-video",
+        "stable-video-diffusion",
+        "e7f5d24f2cfb4c8b9fa4100174ad21bf"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c14_q1",
+          "time": "01:11",
+          "question": "Stable Video Diffusion (Image-to-Video) có chức năng chính là gì?",
+          "options": [
+            "Chỉnh sửa nội dung video dựa trên AI",
+            "Chuyển đổi một hình ảnh tĩnh thành video có chuyển động mượt mà",
+            "Tăng chất lượng hình ảnh trong video có sẵn",
+            "Tạo video từ mô tả văn bản"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Chuyển đổi một hình ảnh tĩnh thành video có chuyển động mượt mà"
+          ],
+          "rawSeconds": 71,
+          "seekSeconds": 66,
+          "seekTime": "01:06"
+        },
+        {
+          "id": "ai01_c14_q2",
+          "time": "02:40",
+          "question": "Điểm nổi bật của Stable Video Diffusion (Image-to-Video) là gì?",
+          "options": [
+            "Tập trung vào việc tối ưu hóa hiệu suất GPU khi xử lý video.",
+            "Biến một hình ảnh thành video với các chuyển động tự nhiên và liền mạch.",
+            "Chỉnh sửa video bằng cách thêm văn bản tự động.",
+            "Tạo video dài đến 10 phút với chất lượng cao."
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Biến một hình ảnh thành video với các chuyển động tự nhiên và liền mạch."
+          ],
+          "rawSeconds": 160,
+          "seekSeconds": 155,
+          "seekTime": "02:35"
+        }
+      ]
+    },
+    {
+      "lessonId": "ai01_clip_15",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Một số nền tảng sinh video thương mại (RunwayML, KlingAI…)",
+      "keywords": [
+        "một số nền tảng sinh video thương mại",
+        "runwayml",
+        "181f4d1518bb45b59ce7aa1304b0aa40"
+      ],
+      "questions": [
+        {
+          "id": "ai01_c15_q1",
+          "time": "02:00",
+          "question": "RunwayML là công cụ hỗ trợ chính cho tác vụ nào?",
+          "options": [
+            "Quản lý và xử lý dữ liệu y tế",
+            "Phân tích dữ liệu lớn trong lĩnh vực tài chính",
+            "Tối ưu hóa hiệu năng phần cứng để đào tạo mô hình AI",
+            "Tạo và chỉnh sửa nội dung sáng tạo như hình ảnh, video và âm thanh bằng AI"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tạo và chỉnh sửa nội dung sáng tạo như hình ảnh, video và âm thanh bằng AI"
+          ],
+          "rawSeconds": 120,
+          "seekSeconds": 115,
+          "seekTime": "01:55"
+        },
+        {
+          "id": "ai01_c15_q2",
+          "time": "03:02",
+          "question": "Một trong những tính năng nổi bật của RunwayML là gì?",
+          "options": [
+            "Xử lý đồ họa 3D phức tạp trên phần cứng chuyên dụng",
+            "Hỗ trợ mô phỏng dữ liệu thời tiết trong thời gian thực",
+            "Phân tích dữ liệu video để phát hiện khuôn mặt tự động",
+            "Tạo hình ảnh hoặc video từ văn bản với giao diện dễ sử dụng"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tạo hình ảnh hoặc video từ văn bản với giao diện dễ sử dụng"
+          ],
+          "rawSeconds": 182,
+          "seekSeconds": 177,
+          "seekTime": "02:57"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_1_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.1.1. KHÁI NIỆM CƠ BẢN VỀ AN TOÀN TRÊN KHÔNG GIAN SỐ",
+      "keywords": [
+        "khái niệm cơ bản về an toàn trên không gian số",
+        "1.1.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_111_q1",
+          "time": "03:35",
+          "question": "Thứ tự giai đoạn nào sau đây là đúng?",
+          "options": [
+            "Số hóa, tin học hóa, chuyển đổi số",
+            "Tin học hóa, số hóa, chuyển đổi số",
+            "Số hóa, chuyển đổi số, tin học hóa",
+            "Số hóa, tin học hóa, chuyển đổi số"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Tin học hóa, số hóa, chuyển đổi số"
+          ],
+          "rawSeconds": 215,
+          "seekSeconds": 210,
+          "seekTime": "03:30"
+        },
+        {
+          "id": "attt_111_q2",
+          "time": "05:35",
+          "question": "Trong thời chuyển đổi số, dữ liệu nào được khai thác để tạo nên giá trị?",
+          "options": [
+            "Dữ liệu quốc gia",
+            "Dữ liệu doanh nghiệp",
+            "Dữ liệu cá nhân",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các ý trên"
+          ],
+          "rawSeconds": 335,
+          "seekSeconds": 330,
+          "seekTime": "05:30"
+        },
+        {
+          "id": "attt_111_q3",
+          "time": "13:50",
+          "question": "An toàn máy tính là gì?",
+          "options": [
+            "An toàn phần mềm và hệ điều hành",
+            "An toàn phần cứng của máy tính",
+            "An toàn dữ liệu trên máy tính",
+            "An toàn cho thiết bị mạng"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3
+          ],
+          "answers": [
+            "An toàn phần mềm và hệ điều hành",
+            "An toàn phần cứng của máy tính",
+            "An toàn dữ liệu trên máy tính"
+          ],
+          "rawSeconds": 830,
+          "seekSeconds": 825,
+          "seekTime": "13:45"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_1_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.1.2. CÁC YÊU CẦU ATTT CƠ BẢN (P1)",
+      "keywords": [
+        "các yêu cầu attt cơ bản (p1)",
+        "1.1.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_112_q1",
+          "time": "03:38",
+          "question": "Mô hình CIA mô tả các yêu cầu nào mà hệ thống cần phải đạt được?",
+          "options": [
+            "Bí mật",
+            "Toàn vẹn",
+            "Sẵn sàng",
+            "Xác thực"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3
+          ],
+          "answers": [
+            "Bí mật",
+            "Toàn vẹn",
+            "Sẵn sàng"
+          ],
+          "rawSeconds": 218,
+          "seekSeconds": 213,
+          "seekTime": "03:33"
+        },
+        {
+          "id": "attt_112_q2",
+          "time": "09:18",
+          "question": "Kỹ thuật cấp quyền cho người dùng là gì?",
+          "options": [
+            "Authorization",
+            "Authentication",
+            "Accounting",
+            "Scanning"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Authorization"
+          ],
+          "rawSeconds": 558,
+          "seekSeconds": 553,
+          "seekTime": "09:13"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_1_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.1.3. CÁC YÊU CẦU ATTT CƠ BẢN (P2)",
+      "keywords": [
+        "các yêu cầu attt cơ bản (p2)",
+        "1.1.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_113_q1",
+          "time": "11:35",
+          "question": "Loại chứng thực nào an toàn nhất trong số các loại bên dưới.",
+          "options": [
+            "Mống mắt",
+            "Khuôn mặt",
+            "Vân tay",
+            "Thẻ cứng kết hợp mật khẩu"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Thẻ cứng kết hợp mật khẩu"
+          ],
+          "rawSeconds": 695,
+          "seekSeconds": 690,
+          "seekTime": "11:30"
+        },
+        {
+          "id": "attt_113_q2",
+          "time": "15:00",
+          "question": "Trong mô hình điều khiển truy cập nào, người sở hữu tài nguyên có quyền cấp quyền truy cập tài nguyên?",
+          "options": [
+            "RBAC",
+            "MAC",
+            "DAC",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "DAC"
+          ],
+          "rawSeconds": 900,
+          "seekSeconds": 895,
+          "seekTime": "14:55"
+        },
+        {
+          "id": "attt_113_q3",
+          "time": "21:15",
+          "question": "Có các kỹ thuật giám sát được đề cập đến là gì?",
+          "options": [
+            "Scanning",
+            "Monitoring",
+            "Logging",
+            "Tất cả các đáp án trên"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các đáp án trên"
+          ],
+          "rawSeconds": 1275,
+          "seekSeconds": 1270,
+          "seekTime": "21:10"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_2_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.2.1. CÁC NGUY CƠ MẤT ATTT CHO HỆ THỐNG (P1)",
+      "keywords": [
+        "các nguy cơ mất attt cho hệ thống (p1)",
+        "1.2.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_121_q1",
+          "time": "02:10",
+          "question": "Yếu tố nào dưới đây được coi là mối nguy hại đến hệ thống?",
+          "options": [
+            "Hỏa hoạn",
+            "Cáp mạng bị đứt",
+            "Mất điện",
+            "Thiết bị phần cứng bị hỏng"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "answers": [
+            "Hỏa hoạn",
+            "Cáp mạng bị đứt",
+            "Mất điện",
+            "Thiết bị phần cứng bị hỏng"
+          ],
+          "rawSeconds": 130,
+          "seekSeconds": 125,
+          "seekTime": "02:05"
+        },
+        {
+          "id": "attt_121_q2",
+          "time": "05:20",
+          "question": "Đúng hay sai: Đe dọa tấn công từ bên trong khó đối phó hơn so với tấn công từ bên ngoài?",
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 320,
+          "seekSeconds": 315,
+          "seekTime": "05:15"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_2_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.2.3. CÁC HÌNH THỨC TẤN CÔNG ATTT PHỔ BIẾN",
+      "keywords": [
+        "các hình thức tấn công attt phổ biến",
+        "1.2.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_123_q1",
+          "time": "10:18",
+          "question": "Loại hình tấn công nào không gây hại ngay lập tức với hệ thống?",
+          "options": [
+            "Tấn công từ chối dịch vụ",
+            "Tấn công truy cập",
+            "Tấn công do thám",
+            "Tất cả các đáp án đều sai"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Tấn công do thám"
+          ],
+          "rawSeconds": 618,
+          "seekSeconds": 613,
+          "seekTime": "10:13"
+        },
+        {
+          "id": "attt_123_q2",
+          "time": "15:23",
+          "question": "Loại hình tấn công nào kẻ xấu sẽ thay thế người dùng hợp pháp truy cập vào hệ thống?",
+          "options": [
+            "Tấn công phòng máy chủ",
+            "Tấn công truy cập",
+            "Tấn công từ chối dịch vụ",
+            "Tấn công do thám"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Tấn công truy cập"
+          ],
+          "rawSeconds": 923,
+          "seekSeconds": 918,
+          "seekTime": "15:18"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_3_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.3.1. KHUYẾN NGHỊ CHUNG VỀ ATTT CHO NGƯỜI DÙNG",
+      "keywords": [
+        "khuyến nghị chung về attt cho người dùng",
+        "1.3.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_131_q1",
+          "time": "03:00",
+          "question": "Các thói quen nào có thể gây mất an toàn thông tin cho người dùng?",
+          "options": [
+            "Sử dụng phần mềm, hệ điều hành crack",
+            "Sử dụng các ứng dụng, trò chơi trên mạng xã hội thường xuyên",
+            "Chia sẻ quá nhiều thông tin cá nhân, gia đình, cuộc sống lên mạng",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các ý trên"
+          ],
+          "rawSeconds": 180,
+          "seekSeconds": 175,
+          "seekTime": "02:55"
+        },
+        {
+          "id": "attt_131_q2",
+          "time": "06:00",
+          "question": "Yếu tố nào khiến sử dụng các mạng wifi công cộng trở nên không an toàn?",
+          "options": [
+            "Không kiểm soát được danh tính người dùng",
+            "Các biện pháp an toàn thông tin lỏng lẻo",
+            "Không mã hóa",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các ý trên"
+          ],
+          "rawSeconds": 360,
+          "seekSeconds": 355,
+          "seekTime": "05:55"
+        },
+        {
+          "id": "attt_131_q3",
+          "time": "09:00",
+          "question": "Tại sao truy cập website bằng HTTPS lại an toàn hơn?",
+          "options": [
+            "Thông tin trao đổi được mã hóa",
+            "Trang web/dịch vụ được xác nhận danh tính bởi bên thứ 3 tin cậy",
+            "Trình duyệt có thể tự động kiểm tra danh tính trang web/dịch vụ",
+            "Nhiều người phản hồi tốt"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3
+          ],
+          "answers": [
+            "Thông tin trao đổi được mã hóa",
+            "Trang web/dịch vụ được xác nhận danh tính bởi bên thứ 3 tin cậy",
+            "Trình duyệt có thể tự động kiểm tra danh tính trang web/dịch vụ"
+          ],
+          "rawSeconds": 540,
+          "seekSeconds": 535,
+          "seekTime": "08:55"
+        },
+        {
+          "id": "attt_131_q4",
+          "time": "12:00",
+          "question": "Ứng dụng nào trong bài giảng mà nhà sản xuất đưa ra phương án kỹ thuật để đảm bảo người dùng chỉ đăng nhập trên một loại thiết bị/thời điểm?",
+          "options": [
+            "Yahoo mail",
+            "Instagram",
+            "Facebook",
+            "Zalo"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Zalo"
+          ],
+          "rawSeconds": 720,
+          "seekSeconds": 715,
+          "seekTime": "11:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_3_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.3.2. CÁCH THỨC SỬ DỤNG MÁY TÍNH CÁ NHÂN AN TOÀN",
+      "keywords": [
+        "cách thức sử dụng máy tính cá nhân an toàn",
+        "1.3.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_132_q1",
+          "time": "07:25",
+          "question": "Thói quen nào khi sử dụng máy tính có thể vô tình kích hoạt mã độc đã lây nhiễm trong ổ cứng, ổ usb, thư mục đó",
+          "options": [
+            "Click đúp để mở",
+            "Để chế độ chạy tự động khi cắm bộ nhớ usb",
+            "Click ở phần cây thư mục bên trái để mở",
+            "Click chuột phải chọn open"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Click đúp để mở",
+            "Để chế độ chạy tự động khi cắm bộ nhớ usb"
+          ],
+          "rawSeconds": 445,
+          "seekSeconds": 440,
+          "seekTime": "07:20"
+        },
+        {
+          "id": "attt_132_q2",
+          "time": "14:40",
+          "question": "Lựa chọn quét mã độc nào giúp phát hiện được mã độc một cách hiệu quả nhất",
+          "options": [
+            "Quét bằng các boot CD có phần mềm diệt mã độc cập nhật nhất",
+            "Quét định kỳ",
+            "Quét trong chế độ safe mode",
+            "Quét tự động"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Quét bằng các boot CD có phần mềm diệt mã độc cập nhật nhất"
+          ],
+          "rawSeconds": 880,
+          "seekSeconds": 875,
+          "seekTime": "14:35"
+        },
+        {
+          "id": "attt_132_q3",
+          "time": "16:28",
+          "question": "Dấu hiệu nghi ngờ trang web không an toàn là gì?",
+          "options": [
+            "Chứa rất nhiều quảng cáo",
+            "Chỉ tập trung các nội dung hot, giật gân",
+            "Giao diện thân thiện",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Chứa rất nhiều quảng cáo",
+            "Chỉ tập trung các nội dung hot, giật gân"
+          ],
+          "rawSeconds": 988,
+          "seekSeconds": 983,
+          "seekTime": "16:23"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_1_3_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "1.3.3. SỬ DỤNG PHẦN MỀM AN TOÀN VÀ TUÂN THỦ CHÍNH SÁCH AN NINH MẠNG",
+      "keywords": [
+        "sử dụng phần mềm an toàn và tuân thủ chính sách an ninh mạng",
+        "1.3.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_133_q1",
+          "time": "05:32",
+          "question": "Khi không có khả năng mua bản quyền phần mềm, người dùng nên làm gì?",
+          "options": [
+            "Tìm phần mềm miễn phí tương ứng tại các nguồn tin cậy",
+            "Sử dụng các chương trình được chia sẻ trên Internet để tạo serial đăng ký bản quyền",
+            "Dùng phần mềm miễn phí tương tự bất kỳ tìm được",
+            "Các đáp án trên đều đúng"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Tìm phần mềm miễn phí tương ứng tại các nguồn tin cậy"
+          ],
+          "rawSeconds": 332,
+          "seekSeconds": 327,
+          "seekTime": "05:27"
+        },
+        {
+          "id": "attt_133_q2",
+          "time": "13:04",
+          "question": "Chính sách truy cập nào sau đây đảm bảo an toàn",
+          "options": [
+            "Cấp quyền truy cập theo yêu cầu của lãnh đạo",
+            "Cấp quyền truy cập dựa trên vai trò",
+            "Cấp quyền truy cập theo yêu cầu của người dùng",
+            "Cấp quyền truy cập dựa trên quan hệ"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Cấp quyền truy cập dựa trên vai trò"
+          ],
+          "rawSeconds": 784,
+          "seekSeconds": 779,
+          "seekTime": "12:59"
+        },
+        {
+          "id": "attt_133_q3",
+          "time": "17:10",
+          "question": "Hoạt động nào sau đây cần thực hiện để đảm bảo an ninh vật lý?",
+          "options": [
+            "Tập huấn về phòng chống cháy nổ",
+            "Lắp đặt hệ thống phòng chống chập điện, mất điện",
+            "Mã hóa dữ liệu trước khi truyền",
+            "Cài đặt tường lửa bảo vệ mạng"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Tập huấn về phòng chống cháy nổ",
+            "Lắp đặt hệ thống phòng chống chập điện, mất điện"
+          ],
+          "rawSeconds": 1030,
+          "seekSeconds": 1025,
+          "seekTime": "17:05"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_2_1_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "2.1.1. KHÁI NIỆM CƠ BẢN VỀ PHẦN MỀM ĐỘC HẠI",
+      "keywords": [
+        "khái niệm cơ bản về phần mềm độc hại",
+        "2.1.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_211_q1",
+          "time": "04:00",
+          "question": "Mã độc Sasser tấn công vào",
+          "options": [
+            "Lỗ hổng của Windows 98",
+            "Lỗ hổng của Windows 7",
+            "Lỗ hổng của Windows 10",
+            "Lỗ hổng của Windows XP"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Lỗ hổng của Windows XP"
+          ],
+          "rawSeconds": 240,
+          "seekSeconds": 235,
+          "seekTime": "03:55"
+        },
+        {
+          "id": "attt_211_q2",
+          "time": "05:40",
+          "question": "Đúng hay Sai: Ở khía cạnh kỹ thuật, các thuật ngữ malware và virus là giống nhau?",
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Sai"
+          ],
+          "rawSeconds": 340,
+          "seekSeconds": 335,
+          "seekTime": "05:35"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_2_2_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "2.2.1. PHÂN LOẠI MÃ ĐỘC",
+      "keywords": [
+        "phân loại mã độc",
+        "2.2.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_221_q1",
+          "time": "00:52",
+          "altTime": "00:49",
+          "question": "Có bao nhiêu loại mã độc phổ biến",
+          "options": [
+            "10",
+            "8",
+            "7",
+            "9"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "9"
+          ],
+          "rawSeconds": 52,
+          "seekSeconds": 47,
+          "seekTime": "00:47"
+        },
+        {
+          "id": "attt_221_q2",
+          "time": "06:06",
+          "altTime": "06:00",
+          "question": "Dòng mã độc nào có tính chất lây lan?",
+          "options": [
+            "Virus",
+            "Macro",
+            "Trojan",
+            "Tất cả các dòng trên"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Virus",
+            "Macro"
+          ],
+          "rawSeconds": 366,
+          "seekSeconds": 361,
+          "seekTime": "06:01"
+        },
+        {
+          "id": "attt_221_q3",
+          "time": "11:42",
+          "altTime": "11:40",
+          "question": "Khi máy tính bị Ransomware tấn công, người dùng nên làm gì?",
+          "options": [
+            "Diệt mã độc để lấy lại dữ liệu",
+            "Trả tiền chuộc cho hacker để lấy lại dữ liệu",
+            "Sử dụng bản backup dữ liệu để lấy lại dữ liệu bị mã hóa",
+            "Tất cả các ý trên đều sai"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Sử dụng bản backup dữ liệu để lấy lại dữ liệu bị mã hóa"
+          ],
+          "rawSeconds": 702,
+          "seekSeconds": 697,
+          "seekTime": "11:37"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_2_3_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "2.3.1. KỊCH BẢN PHÁT TÁN VÀ LÂY LAN MÃ ĐỘC",
+      "keywords": [
+        "kịch bản phát tán và lây lan mã độc",
+        "cách thức phát tán và lây lan phần mềm độc hại",
+        "2.3.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_231_q1",
+          "time": "05:06",
+          "altTime": "05:05",
+          "question": "Tại sao máy chủ email lại có phần mềm diệt mã độc?",
+          "options": [
+            "Vì người dùng có thể đính kèm file khi gửi mail",
+            "Tránh phát tán mã độc",
+            "Vì mail được nhiều người dùng",
+            "Vì máy người dùng có thể không cài chương trình diệt mã độc"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Vì người dùng có thể đính kèm file khi gửi mail",
+            "Tránh phát tán mã độc"
+          ],
+          "rawSeconds": 306,
+          "seekSeconds": 301,
+          "seekTime": "05:01"
+        },
+        {
+          "id": "attt_231_q2",
+          "time": "09:00",
+          "question": "Điểm chung giữa con đường lây lan của mã độc qua email và facebook là gì?",
+          "options": [
+            "Lỗ hổng phần mềm",
+            "Thói quen chưa tốt của người dùng",
+            "Tải file đính kèm",
+            "Click vào link mã độc"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Thói quen chưa tốt của người dùng"
+          ],
+          "rawSeconds": 540,
+          "seekSeconds": 535,
+          "seekTime": "08:55"
+        },
+        {
+          "id": "attt_231_q3",
+          "time": "19:33",
+          "altTime": "19:30",
+          "question": "Mã độc gateway thường hoạt động thế nào?",
+          "options": [
+            "Chèn/thay đổi nội dung thông điệp",
+            "Phát tán chính nó qua mạng nội bộ",
+            "Tấn công phá hoại máy tính người dùng",
+            "Giúp hacker chiếm quyền điều khiển máy tính"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Chèn/thay đổi nội dung thông điệp",
+            "Phát tán chính nó qua mạng nội bộ"
+          ],
+          "rawSeconds": 1173,
+          "seekSeconds": 1168,
+          "seekTime": "19:28"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_2_3_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "2.3.2. CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC",
+      "keywords": [
+        "cơ chế hoạt động của mã độc",
+        "2.3.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_232_q1",
+          "time": "05:08",
+          "question": "Khi lây nhiễm, mã độc thường chèn thêm các đoạn mã nào vào file bị nhiễm?",
+          "options": [
+            "Mã kích hoạt, mã lây lan, mã tấn công",
+            "Mã phá hoại, mã lây lan, mã ẩn mình",
+            "Mã kích hoạt, mã lây lan, mã hoạt động",
+            "Tất cả các loại trên"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "Mã kích hoạt, mã lây lan, mã hoạt động"
+          ],
+          "rawSeconds": 308,
+          "seekSeconds": 303,
+          "seekTime": "05:03"
+        },
+        {
+          "id": "attt_232_q2",
+          "time": "07:08",
+          "question": "Sau khi lây nhiễm làm thế nào để mã độc hoạt động được?",
+          "options": [
+            "Chèn lệnh jump nhảy đến đoạn mã độc trước",
+            "Chèn lệnh jump nhảy đến chức năng chính của file ở cuối đoạn mã độc",
+            "Yêu cầu hệ điều hành cho mã độc chạy trước",
+            "Tự chạy được không cần kích hoạt"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Chèn lệnh jump nhảy đến đoạn mã độc trước",
+            "Chèn lệnh jump nhảy đến chức năng chính của file ở cuối đoạn mã độc"
+          ],
+          "rawSeconds": 428,
+          "seekSeconds": 423,
+          "seekTime": "07:03"
+        },
+        {
+          "id": "attt_232_q3",
+          "time": "10:48",
+          "question": "Mã độc lây vào file như thế nào?",
+          "options": [
+            "Chèn đoạn mã độc vào cuối file và chèn lệnh jump để kích hoạt mã độc",
+            "Chia mã độc thành nhiều đoạn mã và chèn lẫn vào các đoạn mã của file ở nhiều nơi",
+            "Thêm link kết nối đến file mã độc",
+            "Tất cả các ý trên"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Chèn đoạn mã độc vào cuối file và chèn lệnh jump để kích hoạt mã độc",
+            "Chia mã độc thành nhiều đoạn mã và chèn lẫn vào các đoạn mã của file ở nhiều nơi"
+          ],
+          "rawSeconds": 648,
+          "seekSeconds": 643,
+          "seekTime": "10:43"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_2_4_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "2.4.1. DẤU HIỆU NHẬN BIẾT MÁY TÍNH BỊ NHIỄM MÃ ĐỘC",
+      "keywords": [
+        "dấu hiệu nhận biết máy tính bị nhiễm mã độc",
+        "phòng tránh và gỡ bỏ các loại phần mềm độc hại",
+        "2.4.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_241_q1",
+          "time": "09:50",
+          "altTime": "09:52",
+          "question": "Dấu hiệu máy tính bị nhiễm mã độc?",
+          "options": [
+            "Bạn bè thông báo nhận được tin nhắn với nội dung lạ",
+            "Máy tính liên tục hiện cảnh báo nhiễm mã độc và yêu cầu tải phần mềm chống mã độc",
+            "Xuất hiện cảnh báo tống tiền",
+            "Trình duyệt bị đổi home page và không thay đổi lại được"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "answers": [
+            "Bạn bè thông báo nhận được tin nhắn với nội dung lạ",
+            "Máy tính liên tục hiện cảnh báo nhiễm mã độc và yêu cầu tải phần mềm chống mã độc",
+            "Xuất hiện cảnh báo tống tiền",
+            "Trình duyệt bị đổi home page và không thay đổi lại được"
+          ],
+          "rawSeconds": 590,
+          "seekSeconds": 585,
+          "seekTime": "09:45"
+        },
+        {
+          "id": "attt_241_q2",
+          "time": "18:24",
+          "altTime": "18:23",
+          "question": "Thói quen nào giúp phòng chống mã độc?",
+          "options": [
+            "Cẩn trọng khi trao đổi thông tin trên mạng",
+            "Cẩn trọng khi sử dụng các ứng dụng hay truy cập web trên mạng",
+            "Cập nhật phần mềm, hệ điều hành, phần mềm chống mã độc thường xuyên",
+            "Quét mã độc định kỳ"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "answers": [
+            "Cẩn trọng khi trao đổi thông tin trên mạng",
+            "Cẩn trọng khi sử dụng các ứng dụng hay truy cập web trên mạng",
+            "Cập nhật phần mềm, hệ điều hành, phần mềm chống mã độc thường xuyên",
+            "Quét mã độc định kỳ"
+          ],
+          "rawSeconds": 1104,
+          "seekSeconds": 1099,
+          "seekTime": "18:19"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.1. Khái niệm cơ bản về mật mã",
+      "keywords": [
+        "khái niệm cơ bản về mật mã",
+        "3.1.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_311_q1",
+          "time": "07:37",
+          "question": "Thuật toán nào dùng để biến đổi bản tin mã thành bản tin gốc?",
+          "options": [
+            "Giải mã",
+            "Mã hóa"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Giải mã"
+          ],
+          "rawSeconds": 457,
+          "seekSeconds": 452,
+          "seekTime": "07:32"
+        },
+        {
+          "id": "attt_311_q2",
+          "time": "14:30",
+          "question": "Để hệ mật mã là an toàn, thông tin nào phải được giữ bí mật?",
+          "options": [
+            "Khóa để giải mã",
+            "Cách thức chọn khóa để mã hóa",
+            "Thuật toán mã hóa",
+            "Tất cả các thông tin trên"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Khóa để giải mã"
+          ],
+          "rawSeconds": 870,
+          "seekSeconds": 865,
+          "seekTime": "14:25"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.2. Mật mã khóa đối xứng",
+      "keywords": [
+        "mật mã khóa đối xứng",
+        "3.1.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_312_q1",
+          "time": "06:18",
+          "question": "Hệ mật mã khóa đối xứng sử dụng khóa mã hóa và khóa giải mã giống nhau. Đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 378,
+          "seekSeconds": 373,
+          "seekTime": "06:13"
+        },
+        {
+          "id": "attt_312_q2",
+          "time": "14:30",
+          "question": "Phương pháp mật mã nào sau đây xuất hiện sớm nhất?",
+          "options": [
+            "Mật mã AES",
+            "Mật mã Caesar",
+            "Mật mã DES",
+            "Mật mã Enigma"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Mật mã Caesar"
+          ],
+          "rawSeconds": 870,
+          "seekSeconds": 865,
+          "seekTime": "14:25"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.3. Mật mã khóa công khai",
+      "keywords": [
+        "mật mã khóa công khai",
+        "3.1.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_313_q1",
+          "time": "03:40",
+          "question": "Trong hệ mật mã khóa công khai, khóa nào được sử dụng để mã hóa giữ bí mật thông tin?",
+          "options": [
+            "Khóa công khai",
+            "Khóa riêng",
+            "Cả 2 khóa trên"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Khóa công khai"
+          ],
+          "rawSeconds": 220,
+          "seekSeconds": 215,
+          "seekTime": "03:35"
+        },
+        {
+          "id": "attt_313_q2",
+          "time": "12:05",
+          "question": "Phương pháp mật mã nào sau đây được sử dụng để mã hóa giữ bí mật cho thông tin?",
+          "options": [
+            "RSA",
+            "Diffie-Hellman",
+            "ECC"
+          ],
+          "answerIndices": [
+            1,
+            3
+          ],
+          "answers": [
+            "RSA",
+            "ECC"
+          ],
+          "rawSeconds": 725,
+          "seekSeconds": 720,
+          "seekTime": "12:00"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_4",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.4. Kết hợp các phương pháp mật mã",
+      "keywords": [
+        "kết hợp các phương pháp mật mã",
+        "3.1.4"
+      ],
+      "questions": [
+        {
+          "id": "attt_314_q1",
+          "time": "02:56",
+          "question": "Phương pháp mật mã nào sau đây có tốc độ tính toán chậm nhất?",
+          "options": [
+            "DES",
+            "RSA",
+            "AES",
+            "Các phương pháp có tốc độ tính toán tương đương nhau"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "RSA"
+          ],
+          "rawSeconds": 176,
+          "seekSeconds": 171,
+          "seekTime": "02:51"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_5",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.5. Một số công cụ bảo vệ bí mật dữ liệu",
+      "keywords": [
+        "một số công cụ bảo vệ bí mật dữ liệu",
+        "3.1.5"
+      ],
+      "questions": [
+        {
+          "id": "attt_315_q1",
+          "time": "05:42",
+          "question": "Công cụ mã hóa nào sau đây tạo khóa từ mật khẩu người dùng?",
+          "options": [
+            "Tính năng mã hóa của phần mềm WinRar",
+            "Tính năng mã hóa của phần mềm Microsoft Office",
+            "Tiện ích Bit Locker"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3
+          ],
+          "answers": [
+            "Tính năng mã hóa của phần mềm WinRar",
+            "Tính năng mã hóa của phần mềm Microsoft Office",
+            "Tiện ích Bit Locker"
+          ],
+          "rawSeconds": 342,
+          "seekSeconds": 337,
+          "seekTime": "05:37"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_1_6",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.1.6. Một số giao thức bảo mật cho dịch vụ Internet",
+      "keywords": [
+        "một số giao thức bảo mật cho dịch vụ internet",
+        "3.1.6"
+      ],
+      "questions": [
+        {
+          "id": "attt_316_q1",
+          "time": "05:00",
+          "question": "Đúng hay sai: Sử dụng giao thức HTTPS sẽ giảm thiểu rủi ro truy cập website giả mạo?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 300,
+          "seekSeconds": 295,
+          "seekTime": "04:55"
+        },
+        {
+          "id": "attt_316_q2",
+          "time": "08:03",
+          "question": "Đúng hay sai: Truy cập website bằng HTTPS sẽ loại trừ được các nguy cơ bị lây nhiễm virus?",
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Sai"
+          ],
+          "rawSeconds": 483,
+          "seekSeconds": 478,
+          "seekTime": "07:58"
+        },
+        {
+          "id": "attt_316_q3",
+          "time": "10:22",
+          "question": "Sử dụng phương pháp nào có thể giữ bí mật cho nội dung email trên máy chủ?",
+          "options": [
+            "SSL/TLS",
+            "PGP",
+            "S/MIME"
+          ],
+          "answerIndices": [
+            2,
+            3
+          ],
+          "answers": [
+            "PGP",
+            "S/MIME"
+          ],
+          "rawSeconds": 622,
+          "seekSeconds": 617,
+          "seekTime": "10:17"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_2_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.2.1. Khái niệm cơ bản về chữ ký số",
+      "keywords": [
+        "khái niệm cơ bản về chữ ký số",
+        "3.2.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_321_q1",
+          "time": "04:07",
+          "question": "Chữ ký số KHÔNG đáp ứng được yêu cầu về an toàn bảo mật trong những tình huống nào dưới đây?",
+          "options": [
+            "Giữ bí mật nội dung file",
+            "Giữ bí mật thông tin khi truyền tới máy chủ Web",
+            "Xác định được nội dung file đã bị sửa đổi",
+            "Xác định được ai đã tạo ra dữ liệu"
+          ],
+          "answerIndices": [
+            1,
+            2
+          ],
+          "answers": [
+            "Giữ bí mật nội dung file",
+            "Giữ bí mật thông tin khi truyền tới máy chủ Web"
+          ],
+          "rawSeconds": 247,
+          "seekSeconds": 242,
+          "seekTime": "04:02"
+        },
+        {
+          "id": "attt_321_q2",
+          "time": "14:00",
+          "question": "Khi An gửi cho Bình tài liệu, để tạo chữ ký số, An sử dụng khóa nào?",
+          "options": [
+            "Khóa cá nhân của Bình",
+            "Khóa cá nhân của An",
+            "Khóa công khai của Bình",
+            "Khóa công khai của An",
+            "Các đáp án trên đều sai"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Khóa cá nhân của An"
+          ],
+          "rawSeconds": 840,
+          "seekSeconds": 835,
+          "seekTime": "13:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_2_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.2.2. Một số ứng dụng của chữ ký số",
+      "keywords": [
+        "một số ứng dụng của chữ ký số",
+        "3.2.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_322_q1",
+          "time": "08:48",
+          "question": "Khi người dùng cài đặt các phần mềm không có chữ ký số, hệ điều hành Windows có thể khẳng định được những điều gì khi kiểm tra chữ ký?",
+          "options": [
+            "Ai là người đã cài đặt",
+            "Công ty đã phát hành phần mềm",
+            "Bộ cài đặt bị can thiệp sửa đổi"
+          ],
+          "answerIndices": [
+            2,
+            3
+          ],
+          "answers": [
+            "Công ty đã phát hành phần mềm",
+            "Bộ cài đặt bị can thiệp sửa đổi"
+          ],
+          "rawSeconds": 528,
+          "seekSeconds": 523,
+          "seekTime": "08:43"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_2_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.2.3. An toàn của chữ ký số",
+      "keywords": [
+        "an toàn của chữ ký số",
+        "3.2.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_323_q1",
+          "time": "05:25",
+          "question": "Cách lưu trữ khóa riêng nào sau đây là kém an toàn nhất?",
+          "options": [
+            "Lưu trữ trong file",
+            "Lưu trữ trong thiết bị ký số (Secure USB Token)",
+            "Tất cả các cách lưu trữ trên đều không an toàn",
+            "Lưu trữ trong thẻ thông minh(Smart Card)"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Lưu trữ trong file"
+          ],
+          "rawSeconds": 325,
+          "seekSeconds": 320,
+          "seekTime": "05:20"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_3_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.3.2. Các phương pháp lưu trữ bản sao",
+      "keywords": [
+        "các phương pháp lưu trữ bản sao",
+        "sao lưu dữ liệu",
+        "3.3.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_332_q1",
+          "time": "09:02",
+          "altTime": "09:00",
+          "question": "Trong hầu hết các tình huống thông thường, bản sao của một file nên được lưu trữ ở các vị trí nào?",
+          "options": [
+            "Cùng thư mục với bản chính",
+            "Trên thiết bị khác với bản chính",
+            "Trên dịch vụ lưu trữ của mạng Internet"
+          ],
+          "answerIndices": [
+            2,
+            3
+          ],
+          "answers": [
+            "Trên thiết bị khác với bản chính",
+            "Trên dịch vụ lưu trữ của mạng Internet"
+          ],
+          "rawSeconds": 542,
+          "seekSeconds": 537,
+          "seekTime": "08:57"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_3_3_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "3.3.3. Một số lưu ý khi sao lưu dữ liệu",
+      "keywords": [
+        "một số lưu ý khi sao lưu dữ liệu",
+        "3.3.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_333_q1",
+          "time": "05:40",
+          "question": "Giả sử An có một file tài liệu chứa thông tin quan trọng cần sao lưu. An cần thực hiện điều gì khi sao lưu tài liệu này?",
+          "options": [
+            "Mã hóa dữ liệu trước khi sao lưu",
+            "Sao lưu thành nhiều bản",
+            "Các bản sao được lưu trữ tập trung trên một thiết bị",
+            "Các bản sao được lưu trữ ở các vị trí khác nhau"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            4
+          ],
+          "answers": [
+            "Mã hóa dữ liệu trước khi sao lưu",
+            "Sao lưu thành nhiều bản",
+            "Các bản sao được lưu trữ ở các vị trí khác nhau"
+          ],
+          "rawSeconds": 340,
+          "seekSeconds": 335,
+          "seekTime": "05:35"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_1_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.1.1. Khái niệm về tài khoản và định danh",
+      "keywords": [
+        "khái niệm về tài khoản và định danh",
+        "4.1.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_411_q1",
+          "time": "05:34",
+          "question": "Mật khẩu là yếu tố xác thực loại nào?",
+          "options": [
+            "Yếu tố sinh trắc",
+            "Yếu tố tri thức",
+            "Yếu tố tài sản",
+            "Các đáp án đều sai"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Yếu tố tri thức"
+          ],
+          "rawSeconds": 334,
+          "seekSeconds": 329,
+          "seekTime": "05:29"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_1_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.1.2. Phương pháp xác thực bằng mật khẩu",
+      "keywords": [
+        "phương pháp xác thực bằng mật khẩu",
+        "4.1.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_412_q1",
+          "time": "04:12",
+          "question": "Nếu người dùng sử dụng giao thức HTTP để truy cập vào một website, mật khẩu của họ có thể bị đánh cắp không?",
+          "options": [
+            "Có",
+            "Không"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Có"
+          ],
+          "rawSeconds": 252,
+          "seekSeconds": 247,
+          "seekTime": "04:07"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_1_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.1.3. Một số kịch bản đánh cắp tài khoản",
+      "keywords": [
+        "một số kịch bản đánh cắp tài khoản",
+        "4.1.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_413_q1",
+          "time": "14:02",
+          "question": "Kẻ tấn công có thể đánh cắp được mật khẩu người dùng bằng cách nào sau đây?",
+          "options": [
+            "Tạo website giả mạo",
+            "Cung cấp phần mềm giả mạo",
+            "Đặt máy quay để nhìn lén bàn phím",
+            "Tất cả đáp án trên đều đúng"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả đáp án trên đều đúng"
+          ],
+          "rawSeconds": 842,
+          "seekSeconds": 837,
+          "seekTime": "13:57"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_1_4",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.1.4. Xác thực eKYC",
+      "keywords": [
+        "xác thực ekyc",
+        "4.1.4"
+      ],
+      "questions": [
+        {
+          "id": "attt_414_q1",
+          "time": "04:38",
+          "question": "Thông thường, quá trình eKYC xác thực các thông tin nào của khách hàng?",
+          "options": [
+            "Mật khẩu tài khoản",
+            "Ảnh chụp giấy tờ tài liệu",
+            "Khuôn mặt",
+            "Thiết bị truy cập dịch vụ",
+            "Vị trí của khách hàng"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3
+          ],
+          "answers": [
+            "Mật khẩu tài khoản",
+            "Ảnh chụp giấy tờ tài liệu",
+            "Khuôn mặt"
+          ],
+          "rawSeconds": 278,
+          "seekSeconds": 273,
+          "seekTime": "04:33"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_2_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.2.1. Khái niệm về xác thực đa yếu tố",
+      "keywords": [
+        "khái niệm về xác thực đa yếu tố",
+        "4.2.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_421_q1",
+          "time": "01:57",
+          "altTime": "01:58",
+          "question": "Trong cơ chế xác thực 2 bước, yếu tố nào có thể sử dụng ở bước thứ 2?",
+          "options": [
+            "Thiết bị nhận mật khẩu OTP",
+            "Vân tay",
+            "Khuôn mặt",
+            "Tất cả các đáp án đều đúng"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các đáp án đều đúng"
+          ],
+          "rawSeconds": 117,
+          "seekSeconds": 112,
+          "seekTime": "01:52"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_2_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.2.2. Mật khẩu OTP",
+      "keywords": [
+        "mật khẩu otp",
+        "4.2.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_422_q1",
+          "time": "06:27",
+          "altTime": "06:28",
+          "question": "Loại mật khẩu OTP nào sau đây là kém an toàn nhất?",
+          "options": [
+            "Sinh từ thiết bị phần cứng",
+            "Gửi qua tin nhắn SMS",
+            "Gửi qua email",
+            "Tạo bởi ứng dụng trên điện thoại di động"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Gửi qua tin nhắn SMS"
+          ],
+          "rawSeconds": 387,
+          "seekSeconds": 382,
+          "seekTime": "06:22"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_2_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.2.3. Xác thực bằng thiết bị U2F Security Key",
+      "keywords": [
+        "xác thực bằng thiết bị u2f security key",
+        "4.2.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_423_q1",
+          "time": "05:24",
+          "altTime": "05:25",
+          "question": "Khi sử dụng thiết bị xác thực U2F Security Key, thông tin nào sau đây được gửi tới máy chủ mỗi khi xác thực người dùng?",
+          "options": [
+            "Chữ ký số",
+            "Khóa công khai",
+            "Khóa riêng",
+            "Mật khẩu",
+            "Tất cả các thông tin trên"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Chữ ký số"
+          ],
+          "rawSeconds": 324,
+          "seekSeconds": 319,
+          "seekTime": "05:19"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_2_4",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.2.4. Các phương pháp xác thực đa yếu tố trên Google và Facebook",
+      "keywords": [
+        "các phương pháp xác thực đa yếu tố trên google và facebook",
+        "4.2.4"
+      ],
+      "questions": [
+        {
+          "id": "attt_424_q1",
+          "time": "03:35",
+          "question": "Google sử dụng cách xác thực ở bước thứ 2 nào mà trên Facebook không cung cấp?",
+          "options": [
+            "Mã dự phòng/khôi phục",
+            "Mật khẩu OTP qua cuộc gọi",
+            "Thiết bị xác thực U2F Security Key",
+            "Mật khẩu OTP gửi qua tin nhắn"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Mật khẩu OTP qua cuộc gọi"
+          ],
+          "rawSeconds": 215,
+          "seekSeconds": 210,
+          "seekTime": "03:30"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_3_1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.3.1. Bảo vệ mật khẩu an toàn",
+      "keywords": [
+        "bảo vệ mật khẩu an toàn",
+        "4.3.1"
+      ],
+      "questions": [
+        {
+          "id": "attt_431_q1",
+          "time": "04:16",
+          "altTime": "04:15",
+          "question": "Mật khẩu nên có tối thiểu bao nhiêu ký tự?",
+          "options": [
+            "10",
+            "6",
+            "8",
+            "4"
+          ],
+          "answerIndices": [
+            3
+          ],
+          "answers": [
+            "8",
+            "8 ký tự"
+          ],
+          "rawSeconds": 256,
+          "seekSeconds": 251,
+          "seekTime": "04:11"
+        },
+        {
+          "id": "attt_431_q2",
+          "time": "09:55",
+          "altTime": "09:56",
+          "question": "Cách nào là an toàn để tạo và sử dụng mật khẩu mạnh cho mỗi tài khoản?",
+          "options": [
+            "Ghi tất cả mật khẩu vào tin nhắn trên điện thoại",
+            "Sử dụng phần mềm quản lý mật khẩu",
+            "Ghi tất cả mật khẩu vào giấy nhớ"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Sử dụng phần mềm quản lý mật khẩu"
+          ],
+          "rawSeconds": 595,
+          "seekSeconds": 590,
+          "seekTime": "09:50"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_3_2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.3.2. Phát hiện và xử lý email, tin nhắn lừa đảo",
+      "keywords": [
+        "phát hiện và xử lý email, tin nhắn lừa đảo",
+        "4.3.2"
+      ],
+      "questions": [
+        {
+          "id": "attt_432_q1",
+          "time": "08:20",
+          "question": "Dấu hiệu của email lừa đảo là gì?",
+          "options": [
+            "Yêu cầu người dùng tải tập tin hoặc truy cập đường dẫn",
+            "Tạo ra một tình huống khẩn cấp để yêu cầu người dùng cung cấp thông tin tài khoản",
+            "Có nhiều lỗi ngữ pháp và chính tả",
+            "Tất cả các đáp án đều đúng"
+          ],
+          "answerIndices": [
+            4
+          ],
+          "answers": [
+            "Tất cả các đáp án đều đúng"
+          ],
+          "rawSeconds": 500,
+          "seekSeconds": 495,
+          "seekTime": "08:15"
+        },
+        {
+          "id": "attt_432_q2",
+          "time": "11:35",
+          "altTime": "11:34",
+          "question": "Tin nhắn lừa đảo “brand name” là có đặc điểm gì?",
+          "options": [
+            "Yêu cầu đổi tên tài khoản",
+            "Giả mạo tên của tổ chức",
+            "Yêu cầu chuyển tiền",
+            "Tất cả các đáp án đều sai"
+          ],
+          "answerIndices": [
+            2
+          ],
+          "answers": [
+            "Giả mạo tên của tổ chức"
+          ],
+          "rawSeconds": 695,
+          "seekSeconds": 690,
+          "seekTime": "11:30"
+        }
+      ]
+    },
+    {
+      "lessonId": "attt_4_3_3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "4.3.3. Bảo vệ thông tin cá nhân trên mạng xã hội",
+      "keywords": [
+        "bảo vệ thông tin cá nhân trên mạng xã hội",
+        "4.3.3"
+      ],
+      "questions": [
+        {
+          "id": "attt_433_q1",
+          "time": "11:36",
+          "altTime": "11:35",
+          "question": "Những thông nào nào sau đây được coi là thông tin cá nhân?",
+          "options": [
+            "Thông tin liên lạc",
+            "Địa chỉ gia đình",
+            "Các mối quan hệ xã hội",
+            "Sở thích",
+            "Thói quen hoạt động",
+            "Ví trí hoạt động",
+            "Lịch sử học tập và làm việc"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "answers": [
+            "Thông tin liên lạc",
+            "Địa chỉ gia đình",
+            "Các mối quan hệ xã hội",
+            "Sở thích",
+            "Thói quen hoạt động",
+            "Ví trí hoạt động",
+            "Vị trí hoạt động",
+            "Lịch sử học tập và làm việc"
+          ],
+          "rawSeconds": 696,
+          "seekSeconds": 691,
+          "seekTime": "11:31"
+        },
+        {
+          "id": "attt_433_q2",
+          "time": "11:37",
+          "question": "Thông tin cá nhân có thể bị lộ trong những tình huống nào sau đây?",
+          "options": [
+            "Tin tặc tấn công đánh cắp dữ liệu",
+            "Người dùng chia sẻ thông tin trên các hội nhóm mạng xã hội Facebook, Zalo",
+            "Người dùng chia sẻ thông tin vào các bài viết không rõ nguồn gốc trên Facebook",
+            "Người dùng đăng ký thông tin tham gia các chương trình tặng quà không rõ nguồn gốc",
+            "Người dùng được gắn tên vào các bài viết của người thân, bạn bè",
+            "Người dùng sử dụng tài khoản Facebook để đăng nhập vào các website, ứng dụng khác",
+            "Người dùng đăng ký thông tin tài khoản trên một Website, ứng dụng bất kỳ",
+            "Người dùng sử dụng các ứng dụng tiện ích xử lý ảnh chân dung",
+            "Người dùng đăng video trên Tiktok ở chế độ công khai",
+            "Người dùng đặt chế độ công khai cho hồ sơ tài khoản Facebook",
+            "Người dùng chia sẻ các bài viết trên trang cá nhân của các mạng xã hội ở chế độ công khai"
+          ],
+          "answerIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "answers": [
+            "Tin tặc tấn công đánh cắp dữ liệu",
+            "Người dùng chia sẻ thông tin trên các hội nhóm mạng xã hội Facebook, Zalo",
+            "Người dùng chia sẻ thông tin vào các bài viết không rõ nguồn gốc trên Facebook",
+            "Người dùng đăng ký thông tin tham gia các chương trình tặng quà không rõ nguồn gốc",
+            "Người dùng được gắn tên vào các bài viết của người thân, bạn bè",
+            "Người dùng sử dụng tài khoản Facebook để đăng nhập vào các website, ứng dụng khác",
+            "Người dùng đăng ký thông tin tài khoản trên một Website, ứng dụng bất kỳ",
+            "Người dùng sử dụng các ứng dụng tiện ích xử lý ảnh chân dung",
+            "Người dùng đăng video trên Tiktok ở chế độ công khai",
+            "Người dùng đặt chế độ công khai cho hồ sơ tài khoản Facebook",
+            "Người dùng chia sẻ các bài viết trên trang cá nhân của các mạng xã hội ở chế độ công khai"
+          ],
+          "rawSeconds": 697,
+          "seekSeconds": 692,
+          "seekTime": "11:32"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b1_v1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Tổng quan về chuyển đổi số và kỹ năng số cơ bản - Video 1",
+      "keywords": [
+        "tổng quan về chuyển đổi số và kỹ năng số cơ bản"
+      ],
+      "questions": [
+        {
+          "id": "cd1_11_q1",
+          "time": "09:30",
+          "question": "Lý do “Chuyển đổi số” thường thất bại?",
+          "options": [
+            "Tập trung phần \"số\" hơn \"chuyển đổi\""
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Tập trung phần \"số\" hơn \"chuyển đổi\""
+          ],
+          "rawSeconds": 570,
+          "seekSeconds": 565,
+          "seekTime": "09:25"
+        },
+        {
+          "id": "cd1_11_q2",
+          "time": "11:00",
+          "question": "Khái niệm nào nằm trong “Chuyển đổi số”?",
+          "options": [
+            "Chuyển đổi mô hình hoạt động"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Chuyển đổi mô hình hoạt động"
+          ],
+          "rawSeconds": 660,
+          "seekSeconds": 655,
+          "seekTime": "10:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b1_v2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Tổng quan về chuyển đổi số và kỹ năng số cơ bản - Video 2",
+      "keywords": [
+        "internet vạn vật"
+      ],
+      "questions": [
+        {
+          "id": "cd1_12_q1",
+          "time": "05:00",
+          "question": "Internet vạn vật có nghĩa là mọi thiết bị kết nối lại và truyền qua Internet để trao đổi thông tin, trao đổi dữ liệu. Câu phát biểu trên đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 300,
+          "seekSeconds": 295,
+          "seekTime": "04:55"
+        },
+        {
+          "id": "cd1_12_q2",
+          "time": "10:00",
+          "question": "Năm 2020, mỗi người trong một giây tạo ra bao nhiêu dữ liệu? Hãy chọn câu trả lời đúng.",
+          "options": [
+            "1.7 MB"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "1.7 MB"
+          ],
+          "rawSeconds": 600,
+          "seekSeconds": 595,
+          "seekTime": "09:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b1_v3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Tổng quan về chuyển đổi số và kỹ năng số cơ bản - Video 3",
+      "keywords": [
+        "ai yếu",
+        "blockchain cung cấp"
+      ],
+      "questions": [
+        {
+          "id": "cd1_13_q1",
+          "time": "06:00",
+          "question": "AI nào đang được phát triển và ứng dụng trong thực tế? Hãy chọn câu trả lời đúng.",
+          "options": [
+            "AI yếu"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "AI yếu"
+          ],
+          "rawSeconds": 360,
+          "seekSeconds": 355,
+          "seekTime": "05:55"
+        },
+        {
+          "id": "cd1_13_q2",
+          "time": "16:00",
+          "question": "Blockchain cung cấp các thức để chúng ta có thể theo dõi tính toàn vẹn của dữ liệu. Câu phát biểu trên đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 960,
+          "seekSeconds": 955,
+          "seekTime": "15:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b1_v4",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Tổng quan về chuyển đổi số và kỹ năng số cơ bản - Video 4",
+      "keywords": [
+        "dịch vụ công trực tuyến đối với tổ chức"
+      ],
+      "questions": [
+        {
+          "id": "cd1_14_q1",
+          "time": "05:00",
+          "question": "Bước thứ tư trong việc sử dụng dịch vụ công trực tuyến đối với tổ chức và cá nhân? Hãy chọn câu trả lời đúng",
+          "options": [
+            "Tra cứu tình trạng hồ sơ nộp trực tuyến"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Tra cứu tình trạng hồ sơ nộp trực tuyến"
+          ],
+          "rawSeconds": 300,
+          "seekSeconds": 295,
+          "seekTime": "04:55"
+        },
+        {
+          "id": "cd1_14_q2",
+          "time": "10:50",
+          "question": "Việc lưu trữ hồ sơ, giải quyết thủ tục hành chính điện tử có giá trị như kết quả giải quyết thủ tục bằng văn bản giấy. Câu phát biểu trên đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 650,
+          "seekSeconds": 645,
+          "seekTime": "10:45"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b2_v1",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Dịch vụ công và vai trò của web",
+      "keywords": [
+        "dịch vụ công và vai trò của web",
+        "dich vụ công và vai trò của web"
+      ],
+      "questions": [
+        {
+          "id": "cd1_21_q1",
+          "time": "03:30",
+          "question": "Dịch vụ công trực tuyến được triển khai trên môi trường Web. Hãy chọn Đúng hay Sai cho nhận định trên.",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 210,
+          "seekSeconds": 205,
+          "seekTime": "03:25"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b2_v2",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Mô hình dịch vụ web",
+      "keywords": [
+        "mô hình dịch vụ web"
+      ],
+      "questions": [
+        {
+          "id": "cd1_22_q1",
+          "time": "01:30",
+          "question": "Trong dịch vụ công trực tuyến, thông tin người dùng được nhập vào ở trình duyệt Web và sẽ được xử lý chính ở đâu?",
+          "options": [
+            "Xử lý trên máy chủ web"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Xử lý trên máy chủ web"
+          ],
+          "rawSeconds": 90,
+          "seekSeconds": 85,
+          "seekTime": "01:25"
+        },
+        {
+          "id": "cd1_22_q2",
+          "time": "03:00",
+          "question": "Sau khi máy chủ Web xử lý thông tin, người dùng sẽ nhận được kết quả xử lý ở đâu?",
+          "options": [
+            "Người dùng nhận được kết quả xử lý tại trình duyệt Web"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Người dùng nhận được kết quả xử lý tại trình duyệt Web",
+            "Người dùng nhận được kết quả xử lý tại trình duyệt . Web"
+          ],
+          "rawSeconds": 180,
+          "seekSeconds": 175,
+          "seekTime": "02:55"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd1_b2_v3",
+      "courseKey": "course-v1:BKHN+ATTT-CanTho+2026-1",
+      "title": "Xử lý dữ liệu trên môi trường Web",
+      "keywords": [
+        "xử lý dữ liệu trên môi trường web"
+      ],
+      "questions": [
+        {
+          "id": "cd1_23_q1",
+          "time": "00:05",
+          "question": "Mật khẩu nhập trong trang web có thể dễ dàng bị nghe trộm trên đường truyền nếu không có các biện pháp bảo vệ trên môi trường Web.",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Đúng"
+          ],
+          "rawSeconds": 5,
+          "seekSeconds": 0,
+          "seekTime": "00:00"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd32_b1_v2",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Ứng dụng GenAI trong xử lý, sáng tạo hình ảnh - Video 2 (Canva)",
+      "keywords": [
+        "1-2-1",
+        "nội dung magic",
+        "canva"
+      ],
+      "questions": [
+        {
+          "id": "cd32_121_q1",
+          "time": "01:47",
+          "question": "Canva hỗ trợ những chức năng nào?",
+          "options": [
+            "Tạo thiết kế, hình ảnh, soạn thảo tài liệu, code"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Tạo thiết kế, hình ảnh, soạn thảo tài liệu, code"
+          ],
+          "rawSeconds": 107,
+          "seekSeconds": 102,
+          "seekTime": "01:42"
+        },
+        {
+          "id": "cd32_121_q2",
+          "time": "01:59",
+          "question": "Tính năng AI trên Canva được gọi là gì?",
+          "options": [
+            "Các tính năng có nội dung magic"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Các tính năng có nội dung magic"
+          ],
+          "rawSeconds": 119,
+          "seekSeconds": 114,
+          "seekTime": "01:54"
+        },
+        {
+          "id": "cd32_121_q3",
+          "time": "02:50",
+          "question": "Magic Design dùng để làm gì?",
+          "options": [
+            "Tạo ra các ấn phẩm thiết kế như poster, slide, log"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Tạo ra các ấn phẩm thiết kế như poster, slide, log",
+            "Tạo ra các ấn phẩm thiết kế như poster, slide, logo"
+          ],
+          "rawSeconds": 170,
+          "seekSeconds": 165,
+          "seekTime": "02:45"
+        },
+        {
+          "id": "cd32_121_q4",
+          "time": "05:54",
+          "question": "Magic Write dùng để làm gì?",
+          "options": [
+            "Sinh các đoạn văn bản dựa trên mô tả của người dùng"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Sinh các đoạn văn bản dựa trên mô tả của người dùng"
+          ],
+          "rawSeconds": 354,
+          "seekSeconds": 349,
+          "seekTime": "05:49"
+        }
+      ]
+    },
+    {
+      "lessonId": "cd32_b2_v2",
+      "courseKey": "course-v1:BKHN+AI01+2025-1",
+      "title": "Ứng dụng GenAI trong xử lý, sáng tạo video - Video 2",
+      "keywords": [
+        "2-2-1",
+        "khung đầu và khung cuối"
+      ],
+      "questions": [
+        {
+          "id": "cd32_221_q1",
+          "time": "02:08",
+          "question": "Chức năng Style trong tạo video dùng để làm gì?",
+          "options": [
+            "Thay đổi phong cách hình ảnh"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Thay đổi phong cách hình ảnh"
+          ],
+          "rawSeconds": 128,
+          "seekSeconds": 123,
+          "seekTime": "02:03"
+        },
+        {
+          "id": "cd32_221_q2",
+          "time": "04:24",
+          "question": "Negative prompt trong tạo video dùng để làm gì?",
+          "options": [
+            "Liệt kê các yếu tố người dùng không muốn xuất hiện trong video"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Liệt kê các yếu tố người dùng không muốn xuất hiện trong video"
+          ],
+          "rawSeconds": 264,
+          "seekSeconds": 259,
+          "seekTime": "04:19"
+        },
+        {
+          "id": "cd32_221_q3",
+          "time": "04:55",
+          "question": "Start frame và End frame trong tạo video là gì?",
+          "options": [
+            "Hai hình ảnh tương ứng với khung đầu và khung cuối của video"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Hai hình ảnh tương ứng với khung đầu và khung cuối của video"
+          ],
+          "rawSeconds": 295,
+          "seekSeconds": 290,
+          "seekTime": "04:50"
+        },
+        {
+          "id": "cd32_221_q4",
+          "time": "08:05",
+          "question": "Tính năng Multi-Elements / Ingredients trong tạo video cho phép làm gì?",
+          "options": [
+            "Kết hợp prompt với tối đa bốn hình ảnh đại diện cho các yếu tố khác nhau"
+          ],
+          "answerIndices": [
+            1
+          ],
+          "answers": [
+            "Kết hợp prompt với tối đa bốn hình ảnh đại diện cho các yếu tố khác nhau"
+          ],
+          "rawSeconds": 485,
+          "seekSeconds": 480,
+          "seekTime": "08:00"
+        }
+      ]
+    }
+  ],
+  "questionBank": [
+    {
+      "question": "Chat GPT hoạt động dựa trên dữ liệu gì?",
+      "answers": [
+        "Dữ liệu từ sách, trang web, và các nguồn khác trên Internet"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Điểm nổi bật của ChatGPT so với các chatbot truyền thống là gì?",
+      "answers": [
+        "Hỗ trợ đa ngôn ngữ và có khả năng sáng tạo nội dung"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Few-shot learning đề cập đến khả năng của mô hình:",
+      "answers": [
+        "Học từ rất ít dữ liệu (vài ví dụ)."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Zero-shot learning là gì?",
+      "answers": [
+        "Học mà không cần ví dụ cụ thể nào thuộc nhiệm vụ đó",
+        "Unnmà không sẵn và dụ cụ thể nào thuộc nhiệm vụ đã",
+        "Học mà không cần ví dụ cụ thể nào thuộc nhiệm vụ đó."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Trong zero-shot learning, mô hình thường dựa vào yếu tố nào để dự đoán?",
+      "answers": [
+        "Sự tương đồng ngữ nghĩa giữa nhiệm vụ mới và nhiệm vụ đã học."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Standard prompting là gì?",
+      "answers": [
+        "Cách viết prompt đơn giản, không yêu cầu giải thích."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Instruction prompting tập trung vào điều gì?",
+      "answers": [
+        "Đưa ra hướng dẫn cụ thể cho mô hình thực hiện nhiệm vụ."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Standard prompting thường phù hợp nhất khi:",
+      "answers": [
+        "Nhiệm vụ đơn giản, không yêu cầu suy luận phức tạp."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi nào nên sử dụng Standard prompting thay vì Instruction hoặc Chain of Thought prompting?",
+      "answers": [
+        "Khi nhiệm vụ đơn giản và không yêu cầu giải thích",
+        "Khi nhiệm vụ đơn giản và không yêu cầu giải thích."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nếu prompt không cung cấp định dạng đầu ra rõ ràng, kết quả có thể:",
+      "answers": [
+        "Dài hơn hoặc không theo cấu trúc mong muốn",
+        "Dài hơn hoặc không theo cấu trúc mong muốn."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích chính của việc tinh chỉnh (fine-tuning) mô hình AI là gì?",
+      "answers": [
+        "Tối ưu hóa hiệu suất cho tác vụ cụ thể."
+      ],
+      "options": [
+        "Loại bỏ hoàn toàn lỗi trong mô hình.",
+        "Tăng tốc độ xử lý của mô hình.",
+        "Tối ưu hóa hiệu suất cho tác vụ cụ thể.",
+        "Giảm chi phí phát triển mô hình."
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Hai lý do chính để chạy LLM cục bộ với Ollama là gì?",
+      "answers": [
+        "Chi phí và bảo mật."
+      ],
+      "options": [
+        "Khả năng truy cập và tính di động",
+        "Chi phí và bảo mật.",
+        "Độ chính xác và khả năng mở rộng.",
+        "Tốc độ và hiệu suất."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "NotebookLM là gì?",
+      "answers": [
+        "Một công cụ AI của Google giúp tương tác với tài liệu hiệu quả."
+      ],
+      "options": [
+        "Một phần mềm xử lý văn bản do Google phát triển.",
+        "Một công cụ AI của Google giúp tương tác với tài liệu hiệu quả.",
+        "Một ứng dụng ghi chú kỹ thuật số thay thế cho sổ tay truyền thống.",
+        "Một loại LLM chuyên dụng cho ghi chú."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "NotebookLM hỗ trợ những loại tài liệu nào?",
+      "answers": [
+        "Hỗ trợ PDF, Google Drive, văn bản sao chép, trang web.",
+        "Hỗ trợ PDF. Google Drive, văn bản sao chép, trang web.",
+        "Hỗ trợ PDF, Google Drive, văn bản sao chép, trang web"
+      ],
+      "options": [
+        "Hỗ trợ mọi định dạng tệp tin.",
+        "Hỗ trợ PDF, Google Drive, văn bản sao chép, trang web.",
+        "Chỉ hỗ trợ tài liệu văn bản thuần túy.",
+        "Chỉ hỗ trợ tệp PDF."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Ưu điểm của NotebookLM là gì?",
+      "answers": [
+        "Độ chính xác cao và trích dẫn nguồn rõ ràng dễ kiểm chứng.",
+        "Độ chính xác cao và trích dẫn nguồn rõ ràng, dễ kiểm chứng."
+      ],
+      "options": [
+        "Tích hợp với nhiều ứng dụng khác.",
+        "Giao diện đẹp, dễ sử dụng.",
+        "Độ chính xác cao và trích dẫn nguồn rõ ràng, dễ kiểm chứng."
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Prompt đa thể thức (multimodal prompts) là gì?",
+      "answers": [
+        "Prompt kết hợp nhiều loại định dạng đầu vào như văn bản và hình ảnh."
+      ],
+      "options": [
+        "Prompt sử dụng âm thanh và video.",
+        "Prompt chỉ sử dụng văn bản.",
+        "Prompt chỉ sử dụng hình ảnh.",
+        "Prompt kết hợp nhiều loại định dạng đầu vào như văn bản và hình ảnh."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Để sử dụng API của OpenAI, bạn cần sử dụng gì để xác thực?",
+      "answers": [
+        "API keys"
+      ],
+      "options": [
+        "Không cần xác thực",
+        "Mật khẩu tài khoản",
+        "Mã xác minh qua email",
+        "API keys"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Lang Chain là gì?",
+      "answers": [
+        "Một framework để phát triển ứng dụng trên mô hình ngôn ngữ."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Open Web UI mang lại lợi ích gì khi sử dụng với Ollama?",
+      "answers": [
+        "Giao diện thân thiện để quản lý mô hình."
+      ],
+      "options": [
+        "Cung cấp các tính năng phân tích nâng cao.",
+        "Tăng tốc độ xử lý của mô hình.",
+        "Giảm dung lượng bộ nhớ cần thiết",
+        "Giao diện thân thiện để quản lý mô hình."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Khi thực hiện inpainting, cần cái gì để model thay thế được vật thể?",
+      "answers": [
+        "Một mặt nạ (mask) xác định vùng cần thay thế."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "So với mô hình gốc, LoRA thường có kích thước như thế nào?",
+      "answers": [
+        "Nhỏ hơn"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để tạo video bằng Runway ML, bạn cần upload gì?",
+      "answers": [
+        "Ảnh và nội dung video"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để tạo video bằng RunwayML, bạn cần upload gì?",
+      "answers": [
+        "Ảnh và nội dung video"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "\"Workflow\" là thuật ngữ được dùng trong phần nào trong Shakker.ai",
+      "answers": [
+        "ComfyUI",
+        "ComfyUl"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Kỹ thuật outpainting khác gì so với inpainting?",
+      "answers": [
+        "Outpainting mở rộng vùng hình ảnh ra ngoài khung ban đầu, còn inpainting thay thế hoặc khôi phục các vùng bên trong hình ảnh.",
+        "Outpainting mở rộng vùng hình ảnh ra ngoài khung ban đầu, còn inpainting thay thế hoặc khôi phục các vùng bên trong hình ảnh"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tham số nào trong quá trình train Lora trên Shakker. ai là không bắt buộc?",
+      "answers": [
+        "Trigger words"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tham số nào trong quá trình train Lora trên Shakker.ai là không bắt buộc?",
+      "answers": [
+        "Trigger words"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Shakker.ai được sử dụng để làm gì?",
+      "answers": [
+        "Tất cả các đáp án trên"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "\"Trigger words\" trong quá trình train Lora là gì?",
+      "answers": [
+        "Từ khóa đặc biệt để ghi nhớ nhân vật",
+        "Từ khóa đặc biệt để ghi nhớ nhân vật."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Kỹ thuật Face Swap nào được giới thiệu trong slide?",
+      "answers": [
+        "ReActor và ZenID"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nền tảng nào được sử dụng để tạo video?",
+      "answers": [
+        "RunwayML",
+        "Runway ML"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Mục đích của “Sample prompt” ở cuối mỗi epoch khi train LoRA là gì?",
+      "answers": [
+        "Để kiểm tra xem model có đang dần tốt hơn không"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Mục đích của \"Sample prompt\" ở cuối mỗi epoch khi train LoRA là gì?",
+      "answers": [
+        "Để kiểm tra xem model có đang dần tốt hơn không"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Dấu hiệu nào cho thấy thiết bị nhớ USB có thể đã nhiễm mã độc?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào \"bắt\" người dùng xem quảng cáo?",
+      "answers": [
+        "Adware"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Người dùng được yêu cầu đăng nhập vào tài khoản ngân hàng trên một website. Những dấu hiệu nào có thể cho thấy đây là một website giả mạo?",
+      "answers": [
+        "Một trong các dấu hiệu trên đều cho thấy khả năng website là giả mạo"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thuật ngữ nào sau đây đề cập đến quy trình trực tuyến thực hiện trên mạng để xác minh danh tính của khách hàng thay cho quy trình sử dụng giấy tờ truyền thống?",
+      "answers": [
+        "eKYC"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Sử dụng phương pháp mật mã RSA với khóa có kích thước nào là an toàn nhất?",
+      "answers": [
+        "4096 bit"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Dấu hiệu nào sau đây cho biết có thể máy tính bị nhiễm mã độc?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thuật ngữ nào trong mô hình AAA đề cập đến việc giám sát hoạt động của hệ thống?",
+      "answers": [
+        "Accounting"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Những hành động nào sau đây có thể khiến người dùng bị lộ thông tin cá nhân trên mạng?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phần mềm độc hại có thể lây lan qua những con đường nào?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Mallory đã tìm cách sửa được lương tháng của anh ta trên phần mềm quản lý nhân sự. Công ty đã không phát hiện ra điều này. Yêu cầu an toàn bảo mật nào đã không đạt được?",
+      "answers": [
+        "Tính toàn vẹn"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tại sao việc sử dụng thêm một yếu tố xác thực thứ hai, cùng với mật khẩu, giúp bảo vệ tài khoản người dùng tốt hơn?",
+      "answers": [
+        "Tin tặc phải chiếm đoạt được cả mật khẩu và yếu tố thứ hai để truy cập được tài khoản",
+        "Tin tặc phải chiếm đoạt được cả mặt khẩu và yếu tố thứ hai để truy cập được tài khoản"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại mã nguồn độc hại nào có thể được cài đặt song không gây tác hại cho đến khi một hoạt động nào đó được kích hoạt?",
+      "answers": [
+        "Logic bomb"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp mật mã nào sau đây là an toàn nhất?",
+      "answers": [
+        "AES"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đặc điểm của các mối đe dọa có tổ chức là gì?",
+      "answers": [
+        "Thường được thực hiện bởi các hacker thành thạo",
+        "Được hoạch định cho mục đích cụ thể"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đặc điểm của các mối đe dọa có tổ chức là gì? (Chọn 2 đáp án)",
+      "answers": [
+        "Thường được thực hiện bởi các hacker thành thạo",
+        "Được hoạch định cho mục đích cụ thể"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp nào có thể phòng tránh được virus?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phát biểu nào sau đây là SAI về mật khẩu OTP?",
+      "answers": [
+        "Là một mật khẩu do người dùng đặt"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Những hành động nào dưới đây giúp giảm nguy cơ bị lây nhiễm phần mềm độc hại? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Không mở các email đáng ngờ và tệp tin đính kèm trong đó",
+        "Luôn sử sụng phần mềm quét virus với các tập tin download từ Internet trước khi mở",
+        "Luôn sử dụng phần mềm quét virus với các tập tin download từ Internet trước khi mở",
+        "Không mở các email đăng ngờ và tập tin đính kèm trong đó",
+        "Luôn sử sụng phần mềm quét virus với các tệp tin download từ Internet trước khi mở"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Những hành động nào dưới đây giúp giảm nguy cơ bị lây nhiễm phần mềm độc hại?",
+      "answers": [
+        "Không mở các email đáng ngờ và tệp tin đính kèm trong đó",
+        "Luôn sử dụng phần mềm quét virus với các tập tin download từ Internet trước khi mở"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Kỹ thuật nào được sử dụng để phát hiện và cảnh báo các nguy cơ mất an toàn trong hệ thống?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp nào sau đây khiến cho kẻ tấn công mất nhiều thời gian hơn để đoán thử mật khẩu của người dùng?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào tống tiền người dùng?",
+      "answers": [
+        "Ransomware"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp mật mã nào sau đây sử dụng một cặp khóa, trong đó mã hóa bằng một khóa và giải mã bằng khóa còn lại?",
+      "answers": [
+        "RSA"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi sử dụng phần mềm mã hóa, chúng ta chỉ có thể giữ bí mật được thông tin nào dưới đây?",
+      "answers": [
+        "Khóa giải mã"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Những hoạt động nào khi sử dụng mạng xã hội Tiktok có thể dẫn đến lộ lọt thông tin cá nhân?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi nhận được một văn bản có chữ ký số của Alice thì Bob có thể kiểm tra chữ ký số bằng khóa nào?",
+      "answers": [
+        "Khóa công khai của Alice"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "So với tất cả các cách thức khác, việc lưu trữ bản sao lưu trên cùng thiết bị ổ cứng với bản gốc có hạn chế gì?",
+      "answers": [
+        "Khi ổ đĩa cứng bị hỏng, việc sao lưu trở thành vô ích vì không thể sử dụng bản sao để khôi phục"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Những sự kiện nào sau đây dẫn đến các mối đe dọa từ bên trong?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Công cụ nào sau đây cung cấp chức năng mã hóa dữ liệu?",
+      "answers": [
+        "Windows BitLocker",
+        "Winrar"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Công cụ nào sau đây cung cấp chức năng mã hóa dữ liệu? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Windows BitLocker",
+        "Winrar"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Công cụ nào sau đây cung cấp chức năng sao lưu dữ liệu?",
+      "answers": [
+        "Windows File History",
+        "Google Backup and Sync"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Công cụ nào sau đây cung cấp chức năng sao lưu dữ liệu? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Windows File History",
+        "Google Backup and Sync"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thói quen giữ an toàn cho thiết bị di động là gì?",
+      "answers": [
+        "Thiết lập tự động chuyển sang chế độ khóa màn hình khi không sử dụng",
+        "Cập nhật thường xuyên",
+        "Đặt mật khẩu an toàn",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Mật khẩu có thể bị lộ như thế nào?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đâu là điều khoản trong chính sách an ninh cho máy trạm?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Người dùng nên làm gì khi nhận được tin nhắn kết bạn từ một tài khoản có ảnh đại diện (avatar) là người thân hoặc bạn bè với lý do người đó bị mất tài khoản cũ?",
+      "answers": [
+        "Gọi điện thoại tới người thân để xác minh lại",
+        "Kiểm tra trang cá nhân của tài khoản đó"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Người dùng nên làm gì khi nhận được tin nhắn kết bạn từ một tài khoản có ảnh đại diện (avatar) là người thân hoặc bạn bè với lý do người đó bị mất tài khoản cũ? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Gọi điện thoại tới người thân để xác minh lại",
+        "Kiểm tra trang cá nhân của tài khoản đó"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thói quen nào giúp không kích hoạt nhầm file mã độc",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tắt tính năng Autorun khi kết nối các thiết bị nhớ USB",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vi nào sau đây có thể gây ảnh hưởng đến an toàn an ninh hệ thống?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Mật khẩu nào dưới đây là mạnh nhất?",
+      "answers": [
+        "kLOQ%hy3"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vi nào sau đây có thể gây hại đến máy tính cá nhân của người dùng?",
+      "answers": [
+        "Tất cả đáp án trên đều sai",
+        "Tất cả các đáp án trên đều sai"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Chúng ta chỉ tin cậy vào chữ ký số trên file khi khẳng định được điều gì?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Chữ ký được xác thực hợp lệ bằng chứng chỉ số từ nhà phát hành (PKI) tin cậy",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để giữ bí mật cho thông tin, chúng ta có thể thực hiện như thế nào?",
+      "answers": [
+        "Mã hóa với khóa đối xứng bằng phương pháp AES",
+        "Mã hóa với khóa công khai bằng phương pháp RSA"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để giữ bí mật cho thông tin, chúng ta có thể thực hiện như thế nào? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Mã hóa với khóa đối xứng bằng phương pháp AES",
+        "Mã hóa với khóa công khai bằng phương pháp RSA"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào có tốc độ lây lan nhanh chóng?",
+      "answers": [
+        "Worm-Sâu Internet",
+        "Worm-Sau Internet"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đặc điểm của phương pháp chứng thực tập trung là gì?",
+      "answers": [
+        "Người dùng chỉ xác thực một lần để truy cập vào nhiều hệ thống khác nhau",
+        "Sử dụng bên thứ 3 để cấp khóa phiên truy cập"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đặc điểm của phương pháp chứng thực tập trung là gì? (Chọn 2 đáp án)",
+      "answers": [
+        "Người dùng chỉ xác thực một lần để truy cập vào nhiều hệ thống khác nhau",
+        "Sử dụng bên thứ 3 để cấp khóa phiên truy cập",
+        "Sử dụng bên thứ 3 để cấp khỏa phiên truy cập"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Trong trường hợp nào sau đây, việc sử dụng mặt khẩu OTP ít có tác dụng để bảo vệ an toàn cho tài khoản của người dùng?",
+      "answers": [
+        "Người dùng truy cập vào một website giả mạo"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Trong trường hợp nào sau đây, việc sử dụng mật khẩu OTP ít có tác dụng để bảo vệ an toàn cho tài khoản của người dùng?",
+      "answers": [
+        "Người dùng truy cập vào một website giả mạo"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hạn chế của phương pháp một mã khóa đối xứng so với một mã khóa công khai là gì?",
+      "answers": [
+        "Cần phải trao chuyển khóa một cách bị một",
+        "Cần phải trao chuyển khóa một cách bí mật"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hạn chế của phương pháp mật mã khóa đối xứng so với mật mã khóa công khai là gì?",
+      "answers": [
+        "Cần phải trao chuyển khóa một cách bí mật"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp nào sau đây được sử dụng để tạo khóa bí mật cho mặt mà khóa đối xứng?",
+      "answers": [
+        "Diffie-Hellman"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp nào sau đây được sử dụng để tạo khóa bí mật cho mật mã khóa đối xứng?",
+      "answers": [
+        "Diffie-Hellman"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đáp án nào sau đây đúng nhất về đặc tính của Trojan?",
+      "answers": [
+        "Hoạt động âm thầm và không lây lan"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp xác thực nào sau đây được khuyến cáo không nên sử dụng để khôi phục đổi mật khẩu mới khi bị quên mật khẩu tài khoản?",
+      "answers": [
+        "Sử dụng câu hỏi bí mật"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Đâu là thành phần của chính sách an ninh mạng?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích của việc sử dụng phần mềm quản lý một khẩu là gì?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích của việc sử dụng phần mềm quản lý mật khẩu là gì?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp một mã AES sử dụng khóa có kích thước bao nhiêu bít là an toàn nhất? (Chỉ ghi số)",
+      "answers": [
+        "256"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp mật mã AES sử dụng khóa có kích thước bao nhiêu bít là an toàn nhất? (Chỉ ghi số)",
+      "answers": [
+        "256"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp mật mã AES sử dụng khóa có kích thước bao nhiêu bịt là an toàn nhất? (Chỉ ghi số)",
+      "answers": [
+        "256"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi thực hiện sao lưu giữ liệu, chúng ta nên làm gì?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Sử dụng tài khoản mạng xã hội Facebook để đăng nhập và liên kết tới các ứng dụng khác sẽ dẫn đến rủi ro nào? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Ứng dụng có thể truy cập dữ liệu tài khoản Facebook",
+        "Ứng dụng có thể theo dõi hoạt động của người dùng trên Facebook",
+        "Ứng dụng có thể chiếm đoạt tài khoản của người dùng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Sử dụng tải khoản mạng xã hội Facebook để đăng nhập và liên kết tới các ứng dụng khác sẽ dẫn đến rủi ro nào? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Ứng dụng có thể truy cập dữ liệu tài khoản Facebook",
+        "Ứng dụng có thể theo dõi hoạt động của người dùng trên Facebook",
+        "Ứng dụng có thể chiếm đoạt tài khoản của người dùng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Người dùng có thể đặt những thiết lập nào sau đây có thể giảm bớt rủi ro bị lộ thông tin cá nhân trên mạng xã hội Facebook?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại tấn công nào sau đây được thực hiện với mục đích ngăn cản người dùng truy cập vào một website?",
+      "answers": [
+        "Tấn công từ chối dịch vụ"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào chỉ lây nhiễm vào các file văn bản như Word, Excel, Powerpoint?",
+      "answers": [
+        "Virus macro"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Kỹ thuật nào được sử dụng để phát hiện ra các điểm yếu trong hệ thống?",
+      "answers": [
+        "Scanning"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Sử dụng chữ ký số để đạt yêu cầu nào trong mô hình CIA?",
+      "answers": [
+        "Tính toàn vẹn"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vi nào sau đây là gia tăng nguy cơ máy tính bị nhiễm phần mềm độc hại? (Chọn đáp án đúng)",
+      "answers": [
+        "Sử dụng công cụ bẻ khóa phần mềm bản quyền",
+        "Sử dụng các phần mềm miễn phí mà không kiểm chứng nguồn gốc",
+        "Không đặt mật khẩu truy cập máy tính",
+        "Truy cập vào các website có nội dung độc hại",
+        "Thiết lập chế độ Public (Công khai) cho bài viết trên mạng xã hội"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thói quen nào góp phần đảm bảo an toàn khi sử dụng Email? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Không mở file đính kèm theo email không rõ nguồn gốc",
+        "Mở file đính kèm trong môi trường cách ly"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào lây nhiễm vào phân vùng khởi động trên ổ đĩa cứng?",
+      "answers": [
+        "Virus boot"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thuật ngữ nào trong mô hình AAA đề cập đến việc xác thực danh tính của người dùng?",
+      "answers": [
+        "Authentication"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thuật ngữ nào trong mô hình AAA để cập đến việc xác thực danh tỉnh của người dùng?",
+      "answers": [
+        "Authentication"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Alice là nhân viên phòng Nhân sự của công ty. Cô ấy đã từ chối đề nghị xem bảng lương của Mallory, một nhân viên khác phòng. Alice đã tuân thủ yêu cầu an toàn bảo mật nào?",
+      "answers": [
+        "Tính bị một",
+        "Tính bí mật"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích khi truy cập website bằng HTTPS là gì? (Chọn 2 đáp án)",
+      "answers": [
+        "Tất cả dữ liệu được mã hóa bảo vệ bí mật",
+        "Trình duyệt có thể kiểm tra website được truy cập tới là đúng theo địa chỉ đã nhập"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Thói quen nào tốt khi sử dụng máy tính và hệ thống mạng?",
+      "answers": [
+        "Cài, cập nhật và quét virus định kỳ",
+        "Cải, cập nhật và quét virus định kỳ"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi thực hiện xác thực ở bước thứ 2, hệ thống gửi một tin nhắn SMS có chứa mật khẩu OTP tới số điện thoại mã người dùng đã đăng ký. Yếu tố nào đã được sử dụng để xác thực?",
+      "answers": [
+        "Yếu tố tài sản"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi nhận được một email thông báo từ ngân hàng và yêu cầu đăng nhập vào một website bằng tài khoản giao dịch trực tuyến, chúng ta nên làm gì?",
+      "answers": [
+        "Liên hệ với ngân hàng qua số điện thoại đã công bố trên website của ngân hàng để kiểm chứng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi nghi ngờ tài khoản của mình đã bị ai đồ lên lút truy cập, chúng ta nên làm gì?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi nghi ngờ tài khoản của mình đã bị ai đó lén lút truy cập, chúng ta nên làm gì?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nguyên nhân nào sau đây làm giảm tỉnh an toàn và tin cậy của hệ xác thực bằng mật khẩu?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nguyên nhân nào sau đây làm giảm tính an toàn và tin cậy của hệ xác thực bằng mật khẩu?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vì tấn công nào vào hệ thống của hacker sau đây thuộc về mối đe dọa không có tổ chức?",
+      "answers": [
+        "Thử nghiệm và thử trình độ bản thân"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vi tấn công nào vào hệ thống của hacker sau đây thuộc về mối đe dọa không có tổ chức?",
+      "answers": [
+        "Thử nghiệm và thử trình độ bản thân"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành vi tấn công nào vào hệ thống của hacker sau đây thuộc về mối đe dọa không có tổ chức?.",
+      "answers": [
+        "Thử nghiệm và thử trình độ bản thân"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Máy tính của Alice bị nhiễm phần mềm vi-rút mã hóa (ransomware) khiến cho toàn bộ dữ liệu không còn đọc được. Alice không có bản sao lưu nào để khôi phục lại. Yêu cầu an toàn bảo mật nào sau đây đã không đạt được?",
+      "answers": [
+        "Tính sẵn sàng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Ưu điểm của chứng thực bằng yếu tố sinh trắc học là gì? (Chọn 3 đáp án)",
+      "answers": [
+        "Khó để làm mát",
+        "Không thể quên",
+        "Tiện dụng",
+        "Khó để làm mất"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nếu Alice sử dụng thuật toán RSA mã hóa bản tín bằng khóa công khai của Bob thì khóa nào sau đây có thể sử dụng để giải mã?",
+      "answers": [
+        "Khóa riêng của Bob"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tại sao sử dụng thiết bị phần cứng U2F Security Key an toàn hơn so với sử dụng mật khẩu OTP tạo bởi phần mềm? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Thiết bị phần cứng khó bị tấn công xâm nhập hơn",
+        "Trình duyệt có khả năng đối chiếu với dữ liệu trong thiết bị để kiểm tra địa chỉ website người dùng truy cập",
+        "Trình duyệt có khả năng đổi chiều với dữ liệu trong thiết bị để kiểm tra địa chỉ website người dùng truy cập."
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nếu kiểm tra chữ ký số trên file cho thấy nó hợp lệ, chúng ta có thể chắc chắn về điều gì? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Chưa có ai sửa đổi nội dung file kể từ khi file được ký số",
+        "Ai là người đã thay đổi nội dung lần cuối",
+        "Thời điểm file được ký"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tên của giao thức để truy cập an toàn tới một Website là gì? (Viết hoa toàn bộ)",
+      "answers": [
+        "HTTPS"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tên của giao thức để truy cập an toàn tới một Website là gì?(Viết hoa toàn bộ)",
+      "answers": [
+        "HTTPS"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Rủi ro mà người dùng cần phải đối mặt khi sử dụng phần mềm quản lý mật khẩu là gì?",
+      "answers": [
+        "Tất cả các đáp án trên đều đúng",
+        "Tất cả các đáp án trên đều đùng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi thiết lập chế độ hiển thị phần mở rộng của tệp tin... Tệp tin đó thực chất là loại tệp tin gì?",
+      "answers": [
+        "Tệp thực thi (exe)"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành động nào sau đây là gia tăng nguy cơ máy tính bị nhiễm phần mềm độc hại? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Sử dụng công cụ bẻ khóa phần mềm bản quyền",
+        "Sử dụng các phần mềm miễn phí mà không kiểm chứng nguồn gốc",
+        "Truy cập vào các website có nội dung độc hại"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hành động nào sau đây là gia tăng nguy cơ mày tỉnh bị nhiễm phần mềm độc hại? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Sử dụng công cụ bẻ khóa phần mềm bản quyền",
+        "Sử dụng các phần mềm miễn phí mà không kiểm chứng nguồn gốc",
+        "Truy cập vào các website có nội dung độc hại"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Kỹ thuật nào ghi lại các sự kiện lỗi của phần mềm trong hệ thống?",
+      "answers": [
+        "Logging"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Sao lưu dữ liệu giúp đạt yêu cầu nào trong mô hình CIA? (Chọn 2 đáp án đúng)",
+      "answers": [
+        "Tính toàn vẹn",
+        "Tính sẵn sàng",
+        "Tính toán ven"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để kẻ khác không thể giải mã được dữ liệu mật, chúng ta cần thực hiện mã hóa như thế nào?",
+      "answers": [
+        "Giữ an toàn khóa giải mã"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để bảo vệ thông tin cá nhân, chế độ đăng bài nào sau đây KHÔNG NÊN được sử dụng trên mạng xã hội Facebook?",
+      "answers": [
+        "Public: Mọi người đều thấy"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phần mềm độc hại thu thập trái phép thông tin người dùng mà họ không hề hay biết gọi là gì?",
+      "answers": [
+        "Spyware"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phần mềm thực hiện các hành động độc hại dưới vỏ bọc được ngụy trang thành một chương trình hữu ích được gọi là gì?",
+      "answers": [
+        "Trojan"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Hệ thống PKI được sử dụng để chứng thực tính tin cậy của loại khóa nào trong các phương pháp mật mã?",
+      "answers": [
+        "Khóa công khai của hệ mật mã khóa công khai"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích chính của AI tạo sinh về mặt hiệu quả là gì?",
+      "answers": [
+        "Nó tự động hóa các công việc tốn thời gian, giúp con người có thêm thời gian để làm việc sáng tạo hơn."
+      ],
+      "options": [
+        "Nó thay thế nhu cầu về sự tham gia của con người trong các quá trình sáng tạo.",
+        "Nó tự động hóa các công việc tốn thời gian, giúp con người có thêm thời gian để làm việc sáng tạo hơn.",
+        "Nó đảm bảo đầu ra hoàn toàn chính xác và không thiên vị.",
+        "Nó loại bỏ sự cần thiết của sáng tạo con người."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Ví dụ nào sau đây là việc sử dụng AI tạo sinh để cá nhân hóa?",
+      "answers": [
+        "Tạo chiến dịch tiếp thị phù hợp với sở thích cá nhân của từng người."
+      ],
+      "options": [
+        "Dịch văn bản từ ngôn ngữ này sang ngôn ngữ khác.",
+        "Tạo chiến dịch tiếp thị phù hợp với sở thích cá nhân của từng người.",
+        "Phân tích các tập dữ liệu lớn để xác định xu hướng.",
+        "Tạo một báo cáo thời tiết cho một địa điểm cụ thể."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Ứng dụng nào sau đây chuyển văn bản thành hình ảnh?",
+      "answers": [
+        "Image Creator trong Microsoft Designer"
+      ],
+      "options": [
+        "Loudly",
+        "Image Creator trong Microsoft Designer",
+        "MathGPT",
+        "TurboScribe"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Mô hình nào được sử dụng để tự động ghi chép cuộc họp bằng cách chuyển giọng nói thành văn bản?",
+      "answers": [
+        "TurboScribe"
+      ],
+      "options": [
+        "Soundraw.io",
+        "DALL-E",
+        "Make a Video",
+        "TurboScribe"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Khi tạo Prompt để tóm tắt nội dung văn bản, điều nào sau đây là quan trọng nhất?",
+      "answers": [
+        "Đảm bảo Prompt chỉ định độ dài và phong cách tóm tắt mong muốn."
+      ],
+      "options": [
+        "Chỉ viết một câu hỏi mở, không thêm thông tin cụ thể.",
+        "Đảm bảo Prompt chỉ định độ dài và phong cách tóm tắt mong muốn.",
+        "Bao gồm tất cả các chi tiết nhỏ từ văn bản gốc.",
+        "Sử dụng ngôn ngữ phức tạp để diễn đạt câu hỏi."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Trong một Prompt yêu cầu viết email, yếu tố nào cần được làm rõ để có kết quả phù hợp?",
+      "answers": [
+        "Đối tượng nhận email và mục đích của email."
+      ],
+      "options": [
+        "Số từ tối thiểu mà email phải đạt được.",
+        "Chi tiết toàn bộ lịch sử giao tiếp trước đó.",
+        "Ngôn ngữ lập trình được sử dụng.",
+        "Đối tượng nhận email và mục đích của email."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Đâu là ví dụ đúng về Prompt yêu cầu tóm tắt một bài báo?",
+      "answers": [
+        "\"Viết một bản tóm tắt ngắn gọn (khoảng 100 từ) của bài báo, tập trung vào các ý chính và bỏ qua các chi tiết không quan trọng.\""
+      ],
+      "options": [
+        "\"Viết lại bài báo nhưng sử dụng ngôn ngữ đơn giản hơn.\"",
+        "\"Viết một bản tóm tắt ngắn gọn (khoảng 100 từ) của bài báo, tập trung vào các ý chính và bỏ qua các chi tiết không quan trọng.\"",
+        "\"Tóm tắt tất cả các câu trong bài báo.\"",
+        "\"Tóm tắt bài báo này.\""
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Khi nào bạn nên sử dụng one-shot prompting?",
+      "answers": [
+        "Khi chỉ cần một ví dụ để hướng dẫn AI hiểu cách trả lời."
+      ],
+      "options": [
+        "Khi cần tạo chuỗi suy luận rõ ràng.",
+        "Khi chỉ cần một ví dụ để hướng dẫn AI hiểu cách trả lời.",
+        "Khi bạn muốn AI tự suy luận mà không cần gợi ý.",
+        "Khi bạn có nhiều ví dụ nhưng muốn giảm thời gian xử lý."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Trong few-shot prompting, điều quan trọng nhất khi chọn các ví dụ là gì?",
+      "answers": [
+        "Chọn các ví dụ đại diện cho bài toán cần giải quyết."
+      ],
+      "options": [
+        "Không cần chọn ví dụ, chỉ cần đưa Prompt.",
+        "Chọn các ví dụ càng phức tạp càng tốt.",
+        "Chọn các ví dụ đại diện cho bài toán cần giải quyết.",
+        "Chọn ví dụ có cấu trúc ngẫu nhiên"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Đặc điểm nào dưới đây là điểm nổi bật của kỹ thuật Chain of Thought?",
+      "answers": [
+        "Cung cấp các bước suy luận rõ ràng trong Prompt để giúp AI giải quyết bài toán."
+      ],
+      "options": [
+        "Cung cấp nhiều ví dụ cụ thể trong một Prompt.",
+        "Cung cấp các bước suy luận rõ ràng trong Prompt để giúp AI giải quyết bài toán.",
+        "Chỉ đưa ra một ví dụ duy nhất",
+        "Không cung cấp ví dụ nào"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Chain of Thought có thể được kết hợp với few-shot prompting trong trường hợp nào?",
+      "answers": [
+        "Khi cần giải thích bài toán bằng nhiều bước suy luận cùng ví dụ cụ thể."
+      ],
+      "options": [
+        "Khi yêu cầu AI tạo câu trả lời ngẫu nhiên.",
+        "Khi cần giải thích bài toán bằng nhiều bước suy luận cùng ví dụ cụ thể.",
+        "Khi chỉ cần một ví dụ duy nhất.",
+        "Khi muốn giảm thời gian xử lý."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Mô hình ngôn ngữ lớn (LLMs) như Gemini có khả năng gì khi xử lý prompt đa phương tiện?",
+      "answers": [
+        "Xử lý cả văn bản và hình ảnh, trả về phản hồi văn bản"
+      ],
+      "options": [
+        "Xử lý cả văn bản và hình ảnh, trả về phản hồi văn bản",
+        "Chỉ xử lý hình ảnh và trả về phản hồi văn bản.",
+        "Chỉ nhận diện văn bản và trả về phản hồi văn bản."
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Learning rate là gì?",
+      "answers": [
+        "Tốc độ mô hình cập nhật trọng số sau mỗi batch"
+      ],
+      "options": [
+        "Khả năng khái quát hóa của mô hình.",
+        "Tốc độ mô hình cập nhật trọng số sau mỗi batch",
+        "Độ phức tạp của mô hình.",
+        "Tỷ lệ dữ liệu được sử dụng để huấn luyện mô hình."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "LangChain là gì?",
+      "answers": [
+        "Một framework để phát triển ứng dụng trên mô hình ngôn ngữ."
+      ],
+      "options": [
+        "Một ngôn ngữ lập trình dành cho AI.",
+        "Một framework để phát triển ứng dụng trên mô hình ngôn ngữ.",
+        "Một công cụ để tinh chỉnh mô hình AI",
+        "Một loại mô hình ngôn ngữ."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Prompt nào dưới đây là tối ưu nhất để tạo hình ảnh và đảm bảo kết quả phù hợp với kỳ vọng?",
+      "answers": [
+        "Bạn là một nhà thiết kế nội thất, tạo một căn phòng hiện đại với tông màu trắng và gỗ sồi."
+      ],
+      "options": [
+        "Khắc hoạ một cô gái xinh xắn đáng yêu.",
+        "Bạn là một nhà thiết kế nội thất, tạo một căn phòng hiện đại với tông màu trắng và gỗ sồi.",
+        "Một bữa ăn tại một quán cà phê sang xịn mịn.",
+        "Thiết kế một căn nhà đẹp, phong cách."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Đâu là cách để viết Prompt hiệu quả để đạt được hình ảnh mong muốn?",
+      "answers": [
+        "Cả 3 phương án trên."
+      ],
+      "options": [
+        "Miêu tả chi tiết: bối cảnh, màu sắc, nghệ thuật.",
+        "Sử dụng ngữ cảnh: ví dụ đặt vài trò “bạn là Da Vincy/bạn là nhà thiết kế nội thất”.",
+        "Khắc phục lỗi: tinh chỉnh prompt để tránh đầu ra không phù hợp.",
+        "Cả 3 phương án trên."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Điểm nổi bật nào sau đây thường được xem là ưu điểm của AUTOMATIC1111?",
+      "answers": [
+        "Dễ sử dụng, giao diện đơn giản và tích hợp nhiều tính năng sẵn có"
+      ],
+      "options": [
+        "Yêu cầu kiến thức chuyên sâu về kết nối các node",
+        "Dễ sử dụng, giao diện đơn giản và tích hợp nhiều tính năng sẵn có",
+        "Cho phép lưu workflow dưới dạng file để chia sẻ và tái sử dụng",
+        "Hỗ trợ giao diện trực quan với cấu hình node linh hoạt"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Điểm nào sau đây là ưu điểm của ComfyUI so với AUTOMATIC1111?",
+      "answers": [
+        "Dễ dàng quan sát và chia sẻ workflow dưới dạng file để tái sử dụng hoặc cộng tác"
+      ],
+      "options": [
+        "Workflow không cần cấu hình node riêng biệt cho các tác vụ khác nhau",
+        "Dễ dàng quan sát và chia sẻ workflow dưới dạng file để tái sử dụng hoặc cộng tác",
+        "Không yêu cầu hiểu chi tiết cách kết nối các node và cấu trúc bên trong",
+        "Giao diện đơn giản và nhất quán"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Stable diffusion là gì?",
+      "answers": [
+        "Một mô hình tạo hình ảnh từ văn bản"
+      ],
+      "options": [
+        "Một giao thức truyền dữ liệu",
+        "Một mô hình tạo hình ảnh từ văn bản",
+        "Một phần mềm chỉnh sửa video",
+        "Một thuật toán nén dữ liệu"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Điểm khác biệt chính giữa chế độ image2image và depth2image trong Stable Diffusion là gì?",
+      "answers": [
+        "image2image chỉnh sửa hình ảnh dựa trên văn bản mô tả, trong khi depth2image sử dụng thông tin độ sâu (depth) của hình ảnh để tái tạo hoặc thay đổi nó."
+      ],
+      "options": [
+        "Cả hai chế độ đều giống nhau, không có sự khác biệt.",
+        "image2image tạo hình ảnh từ văn bản mô tả, trong khi depth2image tạo hình ảnh từ một hình ảnh khác.",
+        "image2image chỉ hoạt động với hình ảnh màu, trong khi depth2image chỉ hoạt động với hình ảnh đen trắng.",
+        "image2image chỉnh sửa hình ảnh dựa trên văn bản mô tả, trong khi depth2image sử dụng thông tin độ sâu (depth) của hình ảnh để tái tạo hoặc thay đổi nó."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Khi sử dụng Shakker AI để train LoRA, điều kiện nào sau đây là cần thiết?",
+      "answers": [
+        "Cần có một bộ dataset hình ảnh chất lượng cao và được gắn nhãn cẩn thận."
+      ],
+      "options": [
+        "Chỉ có thể huấn luyện LoRA với hình ảnh đen trắng.",
+        "Phải sử dụng GPU có bộ nhớ ít nhất 4GB.",
+        "Dataset phải được chia sẻ công khai trước khi huấn luyện.",
+        "Cần có một bộ dataset hình ảnh chất lượng cao và được gắn nhãn cẩn thận."
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Kling.ai hỗ trợ những chức năng chính nào?",
+      "answers": [
+        "Tạo hình ảnh từ văn bản và xây dựng chatbot"
+      ],
+      "options": [
+        "Thiết kế đồ họa 3D và mô phỏng",
+        "Chỉnh sửa video và xử lý âm thanh",
+        "Quản lý dữ liệu lớn và tối ưu hóa phần cứng",
+        "Tạo hình ảnh từ văn bản và xây dựng chatbot"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "SORA là mô hình AI được thiết kế để thực hiện tác vụ nào?",
+      "answers": [
+        "Tạo video từ mô tả văn bản (text-to-video)"
+      ],
+      "options": [
+        "Phân tích nội dung video tự động",
+        "Chỉnh sửa video có sẵn bằng AI",
+        "Tạo hình ảnh từ văn bản (text-to-image)",
+        "Tạo video từ mô tả văn bản (text-to-video)"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Một trong những đặc điểm nổi bật của mô hình SORA trong text-to-video là gì?",
+      "answers": [
+        "Hiểu được các mô tả phức tạp và tạo video với nhiều góc quay, chuyển động khác nhau"
+      ],
+      "options": [
+        "Không thể tạo video với độ dài quá 30 giây",
+        "Hiểu được các mô tả phức tạp và tạo video với nhiều góc quay, chuyển động khác nhau",
+        "Chỉ tạo ra video trong một phong cách cố định",
+        "Tạo video dài tối đa 5 phút với độ phân giải thấp"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Stable Video Diffusion (Image-to-Video) có chức năng chính là gì?",
+      "answers": [
+        "Chuyển đổi một hình ảnh tĩnh thành video có chuyển động mượt mà"
+      ],
+      "options": [
+        "Chỉnh sửa nội dung video dựa trên AI",
+        "Chuyển đổi một hình ảnh tĩnh thành video có chuyển động mượt mà",
+        "Tăng chất lượng hình ảnh trong video có sẵn",
+        "Tạo video từ mô tả văn bản"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Điểm nổi bật của Stable Video Diffusion (Image-to-Video) là gì?",
+      "answers": [
+        "Biến một hình ảnh thành video với các chuyển động tự nhiên và liền mạch."
+      ],
+      "options": [
+        "Tập trung vào việc tối ưu hóa hiệu suất GPU khi xử lý video.",
+        "Biến một hình ảnh thành video với các chuyển động tự nhiên và liền mạch.",
+        "Chỉnh sửa video bằng cách thêm văn bản tự động.",
+        "Tạo video dài đến 10 phút với chất lượng cao."
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "RunwayML là công cụ hỗ trợ chính cho tác vụ nào?",
+      "answers": [
+        "Tạo và chỉnh sửa nội dung sáng tạo như hình ảnh, video và âm thanh bằng AI"
+      ],
+      "options": [
+        "Quản lý và xử lý dữ liệu y tế",
+        "Phân tích dữ liệu lớn trong lĩnh vực tài chính",
+        "Tối ưu hóa hiệu năng phần cứng để đào tạo mô hình AI",
+        "Tạo và chỉnh sửa nội dung sáng tạo như hình ảnh, video và âm thanh bằng AI"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Một trong những tính năng nổi bật của RunwayML là gì?",
+      "answers": [
+        "Tạo hình ảnh hoặc video từ văn bản với giao diện dễ sử dụng"
+      ],
+      "options": [
+        "Xử lý đồ họa 3D phức tạp trên phần cứng chuyên dụng",
+        "Hỗ trợ mô phỏng dữ liệu thời tiết trong thời gian thực",
+        "Phân tích dữ liệu video để phát hiện khuôn mặt tự động",
+        "Tạo hình ảnh hoặc video từ văn bản với giao diện dễ sử dụng"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Thứ tự giai đoạn nào sau đây là đúng?",
+      "answers": [
+        "Tin học hóa, số hóa, chuyển đổi số"
+      ],
+      "options": [
+        "Số hóa, tin học hóa, chuyển đổi số",
+        "Tin học hóa, số hóa, chuyển đổi số",
+        "Số hóa, chuyển đổi số, tin học hóa",
+        "Số hóa, tin học hóa, chuyển đổi số"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Trong thời chuyển đổi số, dữ liệu nào được khai thác để tạo nên giá trị?",
+      "answers": [
+        "Tất cả các ý trên"
+      ],
+      "options": [
+        "Dữ liệu quốc gia",
+        "Dữ liệu doanh nghiệp",
+        "Dữ liệu cá nhân",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "An toàn máy tính là gì?",
+      "answers": [
+        "An toàn phần mềm và hệ điều hành",
+        "An toàn phần cứng của máy tính",
+        "An toàn dữ liệu trên máy tính"
+      ],
+      "options": [
+        "An toàn phần mềm và hệ điều hành",
+        "An toàn phần cứng của máy tính",
+        "An toàn dữ liệu trên máy tính",
+        "An toàn cho thiết bị mạng"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Mô hình CIA mô tả các yêu cầu nào mà hệ thống cần phải đạt được?",
+      "answers": [
+        "Bí mật",
+        "Toàn vẹn",
+        "Sẵn sàng"
+      ],
+      "options": [
+        "Bí mật",
+        "Toàn vẹn",
+        "Sẵn sàng",
+        "Xác thực"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Kỹ thuật cấp quyền cho người dùng là gì?",
+      "answers": [
+        "Authorization"
+      ],
+      "options": [
+        "Authorization",
+        "Authentication",
+        "Accounting",
+        "Scanning"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Loại chứng thực nào an toàn nhất trong số các loại bên dưới.",
+      "answers": [
+        "Thẻ cứng kết hợp mật khẩu"
+      ],
+      "options": [
+        "Mống mắt",
+        "Khuôn mặt",
+        "Vân tay",
+        "Thẻ cứng kết hợp mật khẩu"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Trong mô hình điều khiển truy cập nào, người sở hữu tài nguyên có quyền cấp quyền truy cập tài nguyên?",
+      "answers": [
+        "DAC"
+      ],
+      "options": [
+        "RBAC",
+        "MAC",
+        "DAC",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Có các kỹ thuật giám sát được đề cập đến là gì?",
+      "answers": [
+        "Tất cả các đáp án trên"
+      ],
+      "options": [
+        "Scanning",
+        "Monitoring",
+        "Logging",
+        "Tất cả các đáp án trên"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Yếu tố nào dưới đây được coi là mối nguy hại đến hệ thống?",
+      "answers": [
+        "Hỏa hoạn",
+        "Cáp mạng bị đứt",
+        "Mất điện",
+        "Thiết bị phần cứng bị hỏng"
+      ],
+      "options": [
+        "Hỏa hoạn",
+        "Cáp mạng bị đứt",
+        "Mất điện",
+        "Thiết bị phần cứng bị hỏng"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "question": "Đúng hay sai: Đe dọa tấn công từ bên trong khó đối phó hơn so với tấn công từ bên ngoài?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Loại hình tấn công nào không gây hại ngay lập tức với hệ thống?",
+      "answers": [
+        "Tấn công do thám"
+      ],
+      "options": [
+        "Tấn công từ chối dịch vụ",
+        "Tấn công truy cập",
+        "Tấn công do thám",
+        "Tất cả các đáp án đều sai"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Loại hình tấn công nào kẻ xấu sẽ thay thế người dùng hợp pháp truy cập vào hệ thống?",
+      "answers": [
+        "Tấn công truy cập"
+      ],
+      "options": [
+        "Tấn công phòng máy chủ",
+        "Tấn công truy cập",
+        "Tấn công từ chối dịch vụ",
+        "Tấn công do thám"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Các thói quen nào có thể gây mất an toàn thông tin cho người dùng?",
+      "answers": [
+        "Tất cả các ý trên"
+      ],
+      "options": [
+        "Sử dụng phần mềm, hệ điều hành crack",
+        "Sử dụng các ứng dụng, trò chơi trên mạng xã hội thường xuyên",
+        "Chia sẻ quá nhiều thông tin cá nhân, gia đình, cuộc sống lên mạng",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Yếu tố nào khiến sử dụng các mạng wifi công cộng trở nên không an toàn?",
+      "answers": [
+        "Tất cả các ý trên"
+      ],
+      "options": [
+        "Không kiểm soát được danh tính người dùng",
+        "Các biện pháp an toàn thông tin lỏng lẻo",
+        "Không mã hóa",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Tại sao truy cập website bằng HTTPS lại an toàn hơn?",
+      "answers": [
+        "Thông tin trao đổi được mã hóa",
+        "Trang web/dịch vụ được xác nhận danh tính bởi bên thứ 3 tin cậy",
+        "Trình duyệt có thể tự động kiểm tra danh tính trang web/dịch vụ"
+      ],
+      "options": [
+        "Thông tin trao đổi được mã hóa",
+        "Trang web/dịch vụ được xác nhận danh tính bởi bên thứ 3 tin cậy",
+        "Trình duyệt có thể tự động kiểm tra danh tính trang web/dịch vụ",
+        "Nhiều người phản hồi tốt"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Ứng dụng nào trong bài giảng mà nhà sản xuất đưa ra phương án kỹ thuật để đảm bảo người dùng chỉ đăng nhập trên một loại thiết bị/thời điểm?",
+      "answers": [
+        "Zalo"
+      ],
+      "options": [
+        "Yahoo mail",
+        "Instagram",
+        "Facebook",
+        "Zalo"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Thói quen nào khi sử dụng máy tính có thể vô tình kích hoạt mã độc đã lây nhiễm trong ổ cứng, ổ usb, thư mục đó",
+      "answers": [
+        "Click đúp để mở",
+        "Để chế độ chạy tự động khi cắm bộ nhớ usb"
+      ],
+      "options": [
+        "Click đúp để mở",
+        "Để chế độ chạy tự động khi cắm bộ nhớ usb",
+        "Click ở phần cây thư mục bên trái để mở",
+        "Click chuột phải chọn open"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Lựa chọn quét mã độc nào giúp phát hiện được mã độc một cách hiệu quả nhất",
+      "answers": [
+        "Quét bằng các boot CD có phần mềm diệt mã độc cập nhật nhất"
+      ],
+      "options": [
+        "Quét bằng các boot CD có phần mềm diệt mã độc cập nhật nhất",
+        "Quét định kỳ",
+        "Quét trong chế độ safe mode",
+        "Quét tự động"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Dấu hiệu nghi ngờ trang web không an toàn là gì?",
+      "answers": [
+        "Chứa rất nhiều quảng cáo",
+        "Chỉ tập trung các nội dung hot, giật gân"
+      ],
+      "options": [
+        "Chứa rất nhiều quảng cáo",
+        "Chỉ tập trung các nội dung hot, giật gân",
+        "Giao diện thân thiện",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Khi không có khả năng mua bản quyền phần mềm, người dùng nên làm gì?",
+      "answers": [
+        "Tìm phần mềm miễn phí tương ứng tại các nguồn tin cậy"
+      ],
+      "options": [
+        "Tìm phần mềm miễn phí tương ứng tại các nguồn tin cậy",
+        "Sử dụng các chương trình được chia sẻ trên Internet để tạo serial đăng ký bản quyền",
+        "Dùng phần mềm miễn phí tương tự bất kỳ tìm được",
+        "Các đáp án trên đều đúng"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Chính sách truy cập nào sau đây đảm bảo an toàn",
+      "answers": [
+        "Cấp quyền truy cập dựa trên vai trò"
+      ],
+      "options": [
+        "Cấp quyền truy cập theo yêu cầu của lãnh đạo",
+        "Cấp quyền truy cập dựa trên vai trò",
+        "Cấp quyền truy cập theo yêu cầu của người dùng",
+        "Cấp quyền truy cập dựa trên quan hệ"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Hoạt động nào sau đây cần thực hiện để đảm bảo an ninh vật lý?",
+      "answers": [
+        "Tập huấn về phòng chống cháy nổ",
+        "Lắp đặt hệ thống phòng chống chập điện, mất điện"
+      ],
+      "options": [
+        "Tập huấn về phòng chống cháy nổ",
+        "Lắp đặt hệ thống phòng chống chập điện, mất điện",
+        "Mã hóa dữ liệu trước khi truyền",
+        "Cài đặt tường lửa bảo vệ mạng"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Mã độc Sasser tấn công vào",
+      "answers": [
+        "Lỗ hổng của Windows XP"
+      ],
+      "options": [
+        "Lỗ hổng của Windows 98",
+        "Lỗ hổng của Windows 7",
+        "Lỗ hổng của Windows 10",
+        "Lỗ hổng của Windows XP"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Đúng hay Sai: Ở khía cạnh kỹ thuật, các thuật ngữ malware và virus là giống nhau?",
+      "answers": [
+        "Sai"
+      ],
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Có bao nhiêu loại mã độc phổ biến",
+      "answers": [
+        "9"
+      ],
+      "options": [
+        "10",
+        "8",
+        "7",
+        "9"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Dòng mã độc nào có tính chất lây lan?",
+      "answers": [
+        "Virus",
+        "Macro"
+      ],
+      "options": [
+        "Virus",
+        "Macro",
+        "Trojan",
+        "Tất cả các dòng trên"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Khi máy tính bị Ransomware tấn công, người dùng nên làm gì?",
+      "answers": [
+        "Sử dụng bản backup dữ liệu để lấy lại dữ liệu bị mã hóa"
+      ],
+      "options": [
+        "Diệt mã độc để lấy lại dữ liệu",
+        "Trả tiền chuộc cho hacker để lấy lại dữ liệu",
+        "Sử dụng bản backup dữ liệu để lấy lại dữ liệu bị mã hóa",
+        "Tất cả các ý trên đều sai"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Tại sao máy chủ email lại có phần mềm diệt mã độc?",
+      "answers": [
+        "Vì người dùng có thể đính kèm file khi gửi mail",
+        "Tránh phát tán mã độc"
+      ],
+      "options": [
+        "Vì người dùng có thể đính kèm file khi gửi mail",
+        "Tránh phát tán mã độc",
+        "Vì mail được nhiều người dùng",
+        "Vì máy người dùng có thể không cài chương trình diệt mã độc"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Điểm chung giữa con đường lây lan của mã độc qua email và facebook là gì?",
+      "answers": [
+        "Thói quen chưa tốt của người dùng"
+      ],
+      "options": [
+        "Lỗ hổng phần mềm",
+        "Thói quen chưa tốt của người dùng",
+        "Tải file đính kèm",
+        "Click vào link mã độc"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Mã độc gateway thường hoạt động thế nào?",
+      "answers": [
+        "Chèn/thay đổi nội dung thông điệp",
+        "Phát tán chính nó qua mạng nội bộ"
+      ],
+      "options": [
+        "Chèn/thay đổi nội dung thông điệp",
+        "Phát tán chính nó qua mạng nội bộ",
+        "Tấn công phá hoại máy tính người dùng",
+        "Giúp hacker chiếm quyền điều khiển máy tính"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Khi lây nhiễm, mã độc thường chèn thêm các đoạn mã nào vào file bị nhiễm?",
+      "answers": [
+        "Mã kích hoạt, mã lây lan, mã hoạt động"
+      ],
+      "options": [
+        "Mã kích hoạt, mã lây lan, mã tấn công",
+        "Mã phá hoại, mã lây lan, mã ẩn mình",
+        "Mã kích hoạt, mã lây lan, mã hoạt động",
+        "Tất cả các loại trên"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Sau khi lây nhiễm làm thế nào để mã độc hoạt động được?",
+      "answers": [
+        "Chèn lệnh jump nhảy đến đoạn mã độc trước",
+        "Chèn lệnh jump nhảy đến chức năng chính của file ở cuối đoạn mã độc"
+      ],
+      "options": [
+        "Chèn lệnh jump nhảy đến đoạn mã độc trước",
+        "Chèn lệnh jump nhảy đến chức năng chính của file ở cuối đoạn mã độc",
+        "Yêu cầu hệ điều hành cho mã độc chạy trước",
+        "Tự chạy được không cần kích hoạt"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Mã độc lây vào file như thế nào?",
+      "answers": [
+        "Chèn đoạn mã độc vào cuối file và chèn lệnh jump để kích hoạt mã độc",
+        "Chia mã độc thành nhiều đoạn mã và chèn lẫn vào các đoạn mã của file ở nhiều nơi"
+      ],
+      "options": [
+        "Chèn đoạn mã độc vào cuối file và chèn lệnh jump để kích hoạt mã độc",
+        "Chia mã độc thành nhiều đoạn mã và chèn lẫn vào các đoạn mã của file ở nhiều nơi",
+        "Thêm link kết nối đến file mã độc",
+        "Tất cả các ý trên"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Dấu hiệu máy tính bị nhiễm mã độc?",
+      "answers": [
+        "Bạn bè thông báo nhận được tin nhắn với nội dung lạ",
+        "Máy tính liên tục hiện cảnh báo nhiễm mã độc và yêu cầu tải phần mềm chống mã độc",
+        "Xuất hiện cảnh báo tống tiền",
+        "Trình duyệt bị đổi home page và không thay đổi lại được"
+      ],
+      "options": [
+        "Bạn bè thông báo nhận được tin nhắn với nội dung lạ",
+        "Máy tính liên tục hiện cảnh báo nhiễm mã độc và yêu cầu tải phần mềm chống mã độc",
+        "Xuất hiện cảnh báo tống tiền",
+        "Trình duyệt bị đổi home page và không thay đổi lại được"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "question": "Thói quen nào giúp phòng chống mã độc?",
+      "answers": [
+        "Cẩn trọng khi trao đổi thông tin trên mạng",
+        "Cẩn trọng khi sử dụng các ứng dụng hay truy cập web trên mạng",
+        "Cập nhật phần mềm, hệ điều hành, phần mềm chống mã độc thường xuyên",
+        "Quét mã độc định kỳ"
+      ],
+      "options": [
+        "Cẩn trọng khi trao đổi thông tin trên mạng",
+        "Cẩn trọng khi sử dụng các ứng dụng hay truy cập web trên mạng",
+        "Cập nhật phần mềm, hệ điều hành, phần mềm chống mã độc thường xuyên",
+        "Quét mã độc định kỳ"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "question": "Thuật toán nào dùng để biến đổi bản tin mã thành bản tin gốc?",
+      "answers": [
+        "Giải mã"
+      ],
+      "options": [
+        "Giải mã",
+        "Mã hóa"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Để hệ mật mã là an toàn, thông tin nào phải được giữ bí mật?",
+      "answers": [
+        "Khóa để giải mã"
+      ],
+      "options": [
+        "Khóa để giải mã",
+        "Cách thức chọn khóa để mã hóa",
+        "Thuật toán mã hóa",
+        "Tất cả các thông tin trên"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Hệ mật mã khóa đối xứng sử dụng khóa mã hóa và khóa giải mã giống nhau. Đúng hay sai?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Phương pháp mật mã nào sau đây xuất hiện sớm nhất?",
+      "answers": [
+        "Mật mã Caesar"
+      ],
+      "options": [
+        "Mật mã AES",
+        "Mật mã Caesar",
+        "Mật mã DES",
+        "Mật mã Enigma"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Trong hệ mật mã khóa công khai, khóa nào được sử dụng để mã hóa giữ bí mật thông tin?",
+      "answers": [
+        "Khóa công khai"
+      ],
+      "options": [
+        "Khóa công khai",
+        "Khóa riêng",
+        "Cả 2 khóa trên"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Phương pháp mật mã nào sau đây được sử dụng để mã hóa giữ bí mật cho thông tin?",
+      "answers": [
+        "RSA",
+        "ECC"
+      ],
+      "options": [
+        "RSA",
+        "Diffie-Hellman",
+        "ECC"
+      ],
+      "answerIndices": [
+        1,
+        3
+      ]
+    },
+    {
+      "question": "Phương pháp mật mã nào sau đây có tốc độ tính toán chậm nhất?",
+      "answers": [
+        "RSA"
+      ],
+      "options": [
+        "DES",
+        "RSA",
+        "AES",
+        "Các phương pháp có tốc độ tính toán tương đương nhau"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Công cụ mã hóa nào sau đây tạo khóa từ mật khẩu người dùng?",
+      "answers": [
+        "Tính năng mã hóa của phần mềm WinRar",
+        "Tính năng mã hóa của phần mềm Microsoft Office",
+        "Tiện ích Bit Locker"
+      ],
+      "options": [
+        "Tính năng mã hóa của phần mềm WinRar",
+        "Tính năng mã hóa của phần mềm Microsoft Office",
+        "Tiện ích Bit Locker"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Đúng hay sai: Sử dụng giao thức HTTPS sẽ giảm thiểu rủi ro truy cập website giả mạo?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Đúng hay sai: Truy cập website bằng HTTPS sẽ loại trừ được các nguy cơ bị lây nhiễm virus?",
+      "answers": [
+        "Sai"
+      ],
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Sử dụng phương pháp nào có thể giữ bí mật cho nội dung email trên máy chủ?",
+      "answers": [
+        "PGP",
+        "S/MIME"
+      ],
+      "options": [
+        "SSL/TLS",
+        "PGP",
+        "S/MIME"
+      ],
+      "answerIndices": [
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Chữ ký số KHÔNG đáp ứng được yêu cầu về an toàn bảo mật trong những tình huống nào dưới đây?",
+      "answers": [
+        "Giữ bí mật nội dung file",
+        "Giữ bí mật thông tin khi truyền tới máy chủ Web"
+      ],
+      "options": [
+        "Giữ bí mật nội dung file",
+        "Giữ bí mật thông tin khi truyền tới máy chủ Web",
+        "Xác định được nội dung file đã bị sửa đổi",
+        "Xác định được ai đã tạo ra dữ liệu"
+      ],
+      "answerIndices": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "Khi An gửi cho Bình tài liệu, để tạo chữ ký số, An sử dụng khóa nào?",
+      "answers": [
+        "Khóa cá nhân của An"
+      ],
+      "options": [
+        "Khóa cá nhân của Bình",
+        "Khóa cá nhân của An",
+        "Khóa công khai của Bình",
+        "Khóa công khai của An",
+        "Các đáp án trên đều sai"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Khi người dùng cài đặt các phần mềm không có chữ ký số, hệ điều hành Windows có thể khẳng định được những điều gì khi kiểm tra chữ ký?",
+      "answers": [
+        "Công ty đã phát hành phần mềm",
+        "Bộ cài đặt bị can thiệp sửa đổi"
+      ],
+      "options": [
+        "Ai là người đã cài đặt",
+        "Công ty đã phát hành phần mềm",
+        "Bộ cài đặt bị can thiệp sửa đổi"
+      ],
+      "answerIndices": [
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Cách lưu trữ khóa riêng nào sau đây là kém an toàn nhất?",
+      "answers": [
+        "Lưu trữ trong file"
+      ],
+      "options": [
+        "Lưu trữ trong file",
+        "Lưu trữ trong thiết bị ký số (Secure USB Token)",
+        "Tất cả các cách lưu trữ trên đều không an toàn",
+        "Lưu trữ trong thẻ thông minh(Smart Card)"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Trong hầu hết các tình huống thông thường, bản sao của một file nên được lưu trữ ở các vị trí nào?",
+      "answers": [
+        "Trên thiết bị khác với bản chính",
+        "Trên dịch vụ lưu trữ của mạng Internet"
+      ],
+      "options": [
+        "Cùng thư mục với bản chính",
+        "Trên thiết bị khác với bản chính",
+        "Trên dịch vụ lưu trữ của mạng Internet"
+      ],
+      "answerIndices": [
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Giả sử An có một file tài liệu chứa thông tin quan trọng cần sao lưu. An cần thực hiện điều gì khi sao lưu tài liệu này?",
+      "answers": [
+        "Mã hóa dữ liệu trước khi sao lưu",
+        "Sao lưu thành nhiều bản",
+        "Các bản sao được lưu trữ ở các vị trí khác nhau"
+      ],
+      "options": [
+        "Mã hóa dữ liệu trước khi sao lưu",
+        "Sao lưu thành nhiều bản",
+        "Các bản sao được lưu trữ tập trung trên một thiết bị",
+        "Các bản sao được lưu trữ ở các vị trí khác nhau"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "question": "Mật khẩu là yếu tố xác thực loại nào?",
+      "answers": [
+        "Yếu tố tri thức"
+      ],
+      "options": [
+        "Yếu tố sinh trắc",
+        "Yếu tố tri thức",
+        "Yếu tố tài sản",
+        "Các đáp án đều sai"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Nếu người dùng sử dụng giao thức HTTP để truy cập vào một website, mật khẩu của họ có thể bị đánh cắp không?",
+      "answers": [
+        "Có"
+      ],
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Kẻ tấn công có thể đánh cắp được mật khẩu người dùng bằng cách nào sau đây?",
+      "answers": [
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "options": [
+        "Tạo website giả mạo",
+        "Cung cấp phần mềm giả mạo",
+        "Đặt máy quay để nhìn lén bàn phím",
+        "Tất cả đáp án trên đều đúng"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Thông thường, quá trình eKYC xác thực các thông tin nào của khách hàng?",
+      "answers": [
+        "Mật khẩu tài khoản",
+        "Ảnh chụp giấy tờ tài liệu",
+        "Khuôn mặt"
+      ],
+      "options": [
+        "Mật khẩu tài khoản",
+        "Ảnh chụp giấy tờ tài liệu",
+        "Khuôn mặt",
+        "Thiết bị truy cập dịch vụ",
+        "Vị trí của khách hàng"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "question": "Trong cơ chế xác thực 2 bước, yếu tố nào có thể sử dụng ở bước thứ 2?",
+      "answers": [
+        "Tất cả các đáp án đều đúng"
+      ],
+      "options": [
+        "Thiết bị nhận mật khẩu OTP",
+        "Vân tay",
+        "Khuôn mặt",
+        "Tất cả các đáp án đều đúng"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Loại mật khẩu OTP nào sau đây là kém an toàn nhất?",
+      "answers": [
+        "Gửi qua tin nhắn SMS"
+      ],
+      "options": [
+        "Sinh từ thiết bị phần cứng",
+        "Gửi qua tin nhắn SMS",
+        "Gửi qua email",
+        "Tạo bởi ứng dụng trên điện thoại di động"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Khi sử dụng thiết bị xác thực U2F Security Key, thông tin nào sau đây được gửi tới máy chủ mỗi khi xác thực người dùng?",
+      "answers": [
+        "Chữ ký số"
+      ],
+      "options": [
+        "Chữ ký số",
+        "Khóa công khai",
+        "Khóa riêng",
+        "Mật khẩu",
+        "Tất cả các thông tin trên"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Google sử dụng cách xác thực ở bước thứ 2 nào mà trên Facebook không cung cấp?",
+      "answers": [
+        "Mật khẩu OTP qua cuộc gọi"
+      ],
+      "options": [
+        "Mã dự phòng/khôi phục",
+        "Mật khẩu OTP qua cuộc gọi",
+        "Thiết bị xác thực U2F Security Key",
+        "Mật khẩu OTP gửi qua tin nhắn"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Mật khẩu nên có tối thiểu bao nhiêu ký tự?",
+      "answers": [
+        "8",
+        "8 ký tự"
+      ],
+      "options": [
+        "10",
+        "6",
+        "8",
+        "4"
+      ],
+      "answerIndices": [
+        3
+      ]
+    },
+    {
+      "question": "Cách nào là an toàn để tạo và sử dụng mật khẩu mạnh cho mỗi tài khoản?",
+      "answers": [
+        "Sử dụng phần mềm quản lý mật khẩu"
+      ],
+      "options": [
+        "Ghi tất cả mật khẩu vào tin nhắn trên điện thoại",
+        "Sử dụng phần mềm quản lý mật khẩu",
+        "Ghi tất cả mật khẩu vào giấy nhớ"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Dấu hiệu của email lừa đảo là gì?",
+      "answers": [
+        "Tất cả các đáp án đều đúng"
+      ],
+      "options": [
+        "Yêu cầu người dùng tải tập tin hoặc truy cập đường dẫn",
+        "Tạo ra một tình huống khẩn cấp để yêu cầu người dùng cung cấp thông tin tài khoản",
+        "Có nhiều lỗi ngữ pháp và chính tả",
+        "Tất cả các đáp án đều đúng"
+      ],
+      "answerIndices": [
+        4
+      ]
+    },
+    {
+      "question": "Tin nhắn lừa đảo “brand name” là có đặc điểm gì?",
+      "answers": [
+        "Giả mạo tên của tổ chức"
+      ],
+      "options": [
+        "Yêu cầu đổi tên tài khoản",
+        "Giả mạo tên của tổ chức",
+        "Yêu cầu chuyển tiền",
+        "Tất cả các đáp án đều sai"
+      ],
+      "answerIndices": [
+        2
+      ]
+    },
+    {
+      "question": "Những thông nào nào sau đây được coi là thông tin cá nhân?",
+      "answers": [
+        "Thông tin liên lạc",
+        "Địa chỉ gia đình",
+        "Các mối quan hệ xã hội",
+        "Sở thích",
+        "Thói quen hoạt động",
+        "Ví trí hoạt động",
+        "Vị trí hoạt động",
+        "Lịch sử học tập và làm việc"
+      ],
+      "options": [
+        "Thông tin liên lạc",
+        "Địa chỉ gia đình",
+        "Các mối quan hệ xã hội",
+        "Sở thích",
+        "Thói quen hoạt động",
+        "Ví trí hoạt động",
+        "Lịch sử học tập và làm việc"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "question": "Thông tin cá nhân có thể bị lộ trong những tình huống nào sau đây?",
+      "answers": [
+        "Tin tặc tấn công đánh cắp dữ liệu",
+        "Người dùng chia sẻ thông tin trên các hội nhóm mạng xã hội Facebook, Zalo",
+        "Người dùng chia sẻ thông tin vào các bài viết không rõ nguồn gốc trên Facebook",
+        "Người dùng đăng ký thông tin tham gia các chương trình tặng quà không rõ nguồn gốc",
+        "Người dùng được gắn tên vào các bài viết của người thân, bạn bè",
+        "Người dùng sử dụng tài khoản Facebook để đăng nhập vào các website, ứng dụng khác",
+        "Người dùng đăng ký thông tin tài khoản trên một Website, ứng dụng bất kỳ",
+        "Người dùng sử dụng các ứng dụng tiện ích xử lý ảnh chân dung",
+        "Người dùng đăng video trên Tiktok ở chế độ công khai",
+        "Người dùng đặt chế độ công khai cho hồ sơ tài khoản Facebook",
+        "Người dùng chia sẻ các bài viết trên trang cá nhân của các mạng xã hội ở chế độ công khai"
+      ],
+      "options": [
+        "Tin tặc tấn công đánh cắp dữ liệu",
+        "Người dùng chia sẻ thông tin trên các hội nhóm mạng xã hội Facebook, Zalo",
+        "Người dùng chia sẻ thông tin vào các bài viết không rõ nguồn gốc trên Facebook",
+        "Người dùng đăng ký thông tin tham gia các chương trình tặng quà không rõ nguồn gốc",
+        "Người dùng được gắn tên vào các bài viết của người thân, bạn bè",
+        "Người dùng sử dụng tài khoản Facebook để đăng nhập vào các website, ứng dụng khác",
+        "Người dùng đăng ký thông tin tài khoản trên một Website, ứng dụng bất kỳ",
+        "Người dùng sử dụng các ứng dụng tiện ích xử lý ảnh chân dung",
+        "Người dùng đăng video trên Tiktok ở chế độ công khai",
+        "Người dùng đặt chế độ công khai cho hồ sơ tài khoản Facebook",
+        "Người dùng chia sẻ các bài viết trên trang cá nhân của các mạng xã hội ở chế độ công khai"
+      ],
+      "answerIndices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "question": "Lý do “Chuyển đổi số” thường thất bại?",
+      "answers": [
+        "Tập trung phần \"số\" hơn \"chuyển đổi\""
+      ],
+      "options": [
+        "Tập trung phần \"số\" hơn \"chuyển đổi\""
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Khái niệm nào nằm trong “Chuyển đổi số”?",
+      "answers": [
+        "Chuyển đổi mô hình hoạt động"
+      ],
+      "options": [
+        "Chuyển đổi mô hình hoạt động"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Internet vạn vật có nghĩa là mọi thiết bị kết nối lại và truyền qua Internet để trao đổi thông tin, trao đổi dữ liệu. Câu phát biểu trên đúng hay sai?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Năm 2020, mỗi người trong một giây tạo ra bao nhiêu dữ liệu? Hãy chọn câu trả lời đúng.",
+      "answers": [
+        "1.7 MB"
+      ],
+      "options": [
+        "1.7 MB"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "AI nào đang được phát triển và ứng dụng trong thực tế? Hãy chọn câu trả lời đúng.",
+      "answers": [
+        "AI yếu"
+      ],
+      "options": [
+        "AI yếu"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Blockchain cung cấp các thức để chúng ta có thể theo dõi tính toàn vẹn của dữ liệu. Câu phát biểu trên đúng hay sai?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Bước thứ tư trong việc sử dụng dịch vụ công trực tuyến đối với tổ chức và cá nhân? Hãy chọn câu trả lời đúng",
+      "answers": [
+        "Tra cứu tình trạng hồ sơ nộp trực tuyến"
+      ],
+      "options": [
+        "Tra cứu tình trạng hồ sơ nộp trực tuyến"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Việc lưu trữ hồ sơ, giải quyết thủ tục hành chính điện tử có giá trị như kết quả giải quyết thủ tục bằng văn bản giấy. Câu phát biểu trên đúng hay sai?",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Dịch vụ công trực tuyến được triển khai trên môi trường Web. Hãy chọn Đúng hay Sai cho nhận định trên.",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Trong dịch vụ công trực tuyến, thông tin người dùng được nhập vào ở trình duyệt Web và sẽ được xử lý chính ở đâu?",
+      "answers": [
+        "Xử lý trên máy chủ web"
+      ],
+      "options": [
+        "Xử lý trên máy chủ web"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Sau khi máy chủ Web xử lý thông tin, người dùng sẽ nhận được kết quả xử lý ở đâu?",
+      "answers": [
+        "Người dùng nhận được kết quả xử lý tại trình duyệt Web",
+        "Người dùng nhận được kết quả xử lý tại trình duyệt . Web"
+      ],
+      "options": [
+        "Người dùng nhận được kết quả xử lý tại trình duyệt Web"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Mật khẩu nhập trong trang web có thể dễ dàng bị nghe trộm trên đường truyền nếu không có các biện pháp bảo vệ trên môi trường Web.",
+      "answers": [
+        "Đúng"
+      ],
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Canva hỗ trợ những chức năng nào?",
+      "answers": [
+        "Tạo thiết kế, hình ảnh, soạn thảo tài liệu, code"
+      ],
+      "options": [
+        "Tạo thiết kế, hình ảnh, soạn thảo tài liệu, code"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Tính năng AI trên Canva được gọi là gì?",
+      "answers": [
+        "Các tính năng có nội dung magic"
+      ],
+      "options": [
+        "Các tính năng có nội dung magic"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Magic Design dùng để làm gì?",
+      "answers": [
+        "Tạo ra các ấn phẩm thiết kế như poster, slide, log",
+        "Tạo ra các ấn phẩm thiết kế như poster, slide, logo"
+      ],
+      "options": [
+        "Tạo ra các ấn phẩm thiết kế như poster, slide, log"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Magic Write dùng để làm gì?",
+      "answers": [
+        "Sinh các đoạn văn bản dựa trên mô tả của người dùng"
+      ],
+      "options": [
+        "Sinh các đoạn văn bản dựa trên mô tả của người dùng"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Chức năng Style trong tạo video dùng để làm gì?",
+      "answers": [
+        "Thay đổi phong cách hình ảnh"
+      ],
+      "options": [
+        "Thay đổi phong cách hình ảnh"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Negative prompt trong tạo video dùng để làm gì?",
+      "answers": [
+        "Liệt kê các yếu tố người dùng không muốn xuất hiện trong video"
+      ],
+      "options": [
+        "Liệt kê các yếu tố người dùng không muốn xuất hiện trong video"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Start frame và End frame trong tạo video là gì?",
+      "answers": [
+        "Hai hình ảnh tương ứng với khung đầu và khung cuối của video"
+      ],
+      "options": [
+        "Hai hình ảnh tương ứng với khung đầu và khung cuối của video"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Tính năng Multi-Elements / Ingredients trong tạo video cho phép làm gì?",
+      "answers": [
+        "Kết hợp prompt với tối đa bốn hình ảnh đại diện cho các yếu tố khác nhau"
+      ],
+      "options": [
+        "Kết hợp prompt với tối đa bốn hình ảnh đại diện cho các yếu tố khác nhau"
+      ],
+      "answerIndices": [
+        1
+      ]
+    },
+    {
+      "question": "Đâu là phương pháp để mã hóa bảo vệ nội dung email?",
+      "answers": [
+        "PGP"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Ưu điểm của chứng thực bằng yếu tố sinh trắc học là gì?(Chọn 3 đáp án)",
+      "answers": [
+        "Khó để làm mất",
+        "Không thể quên",
+        "Tiện dụng"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Để giữ bí mật cho thông tin, chúng ta có thể thực hiện như thế nào?(Chọn 2 đáp án đúng)",
+      "answers": [
+        "Mã hóa bằng phương pháp mã Caesar",
+        "Mã hóa với khóa đối xứng bằng phương pháp AES",
+        "Mã hóa với khóa công khai bằng phương pháp RSA"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Loại phần mềm độc hại nào “bắt” người dùng xem quảng cáo?",
+      "answers": [
+        "Adware"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp mật mã AES sử dụng khóa có kích thước bao nhiêu bit là an toàn nhất? (Chỉ ghi số)",
+      "answers": [
+        "256"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Công cụ nào sau đây cung cấp chức năng sao lưu dữ liệu?(Chọn 2 đáp án đúng)",
+      "answers": [
+        "Windows File History",
+        "Google Backup and Sync"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Các kỹ thuật nào bên dưới thường được sử dụng trong tấn công do thám? (Chọn 3 đáp án đúng)",
+      "answers": [
+        "Dò quét thông tin địa chỉ IP của mục tiêu",
+        "Dò quét thông tin về hệ điều hành của mục tiêu",
+        "Thu thập thông tin về các dịch vụ bên trong hệ thống mục tiêu"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Các kỹ thuật nào bên dưới thường được sử dụng trong tấn công do thám?",
+      "answers": [
+        "Dò quét thông tin địa chỉ IP của mục tiêu",
+        "Dò quét thông tin về hệ điều hành của mục tiêu",
+        "Thu thập thông tin về các dịch vụ bên trong hệ thống mục tiêu"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Khi thiết lập chế độ hiển thị phần mở rộng của tệp tin, bạn A thấy tên đầy đủ của tệp tin (bao gồm cả phần mở rộng) là Bang-tong-hop-luong-thang-10.XLSX.DOCX.EXE. Điều đó cho biết tệp tin trên thuộc loại nào",
+      "answers": [
+        "Tệp thực thi (exe)"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Phương pháp xác thực nào sau đây được khuyến cáo không nên sử dụng để khôi phục/đổi mật khẩu mới khi bị quên mật khẩu tài khoản?",
+      "answers": [
+        "Sử dụng câu hỏi bí mật"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Chain of Thought prompting là gì?",
+      "answers": [
+        "Một kỹ thuật dạy AI suy luận theo quy trình có cấu trúc"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Tại sao Chain of Thought lại hiệu quả?",
+      "answers": [
+        "Vì nó thiết kế lời nhắc dựa trên logic xử lý vấn đề"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Điểm cốt lõi của Chain of Thought là gì?",
+      "answers": [
+        "Cách giải quyết vấn đề theo từng bước"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Lợi ích của Chain of Thought là gì?",
+      "answers": [
+        "Giúp AI suy nghĩ theo trình tự logic, tránh nhảy cóc"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Few-shot prompting hoạt động như thế nào?",
+      "answers": [
+        "Cung cấp một số ví dụ mẫu để mô hình học theo"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Ưu điểm của Zero-shot prompting là gì?",
+      "answers": [
+        "Không cần ví dụ cụ thể nên tiết kiệm token"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Nhược điểm của Few-shot prompting là gì?",
+      "answers": [
+        "Do chất lượng ví dụ có thể không đại diện cho mọi tình huống"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Ưu điểm của Zero-shot so với Few-shot là gì?",
+      "answers": [
+        "Không bị phụ thuộc vào chất lượng của ví dụ"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Cấu trúc một Prompt hiệu quả gồm mấy phần?",
+      "answers": [
+        "4 phần: mục đích, phân tích, đặc điểm, đề xuất"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "ChatGPT hoạt động dựa trên dữ liệu gì?",
+      "answers": [
+        "Dữ liệu từ sách, trang web, và các nguồn khác trên Internet"
+      ],
+      "options": [],
+      "answerIndices": []
+    },
+    {
+      "question": "Open Web UI mang lại lợi ích gì khi sử dụng với Ollama?**",
+      "answers": [
+        "Giao diện thân thiện để quản lý mô hình."
+      ],
+      "options": [],
+      "answerIndices": []
+    }
+  ]
+}
